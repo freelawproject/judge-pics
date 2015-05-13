@@ -44,9 +44,7 @@ Quality Guidelines
 Installation
 ------------
 
-Basic usage doesn't require any installation, but if you wish to import the
-`judges.json` file into a Python program, you may want to install the Seal
-Rookery as a Python module in your system. To do so:
+Basic usage doesn't require any installation, but if you wish to import the `judges.json` file into a Python program, you may want to install this as a Python module in your system. To do so:
 
     sudo git clone https://github.com/freelawproject/judge-pics /usr/local/judge_pics
     sudo ln -s /usr/local/judge_pics /usr/lib/python2.7/dist-packages/judge_pics
