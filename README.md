@@ -19,16 +19,20 @@ gathering files. The process for this is pretty simple.
 
     Pictures are given the name of the judge they are of in the form:
 
-        $last-$first-$dob.$extension
+        $last-$first-$dob.jpeg
     
     So, for example Sonia Sotomayor, born June 25, 1954, would be:
 
         sotomayor-sonia-1954-06-25.jpeg
+    
+    Note that the date is in ISO-8601 format, the name is lowercase, and the 
+    extension is jpeg, not jpg. 
   
 1. Regenerate the converted versions by running `convert_images.py` (note that
 this requires `imagemagick`).
 
-1. Edit `judges.json` to include the relevant fields for your new file.
+1. Edit `judges.json` to include the relevant fields for your new file such as 
+   the source and the license.
 
 That's it!
 
@@ -63,5 +67,5 @@ if needed. We do this because we have a lot of experience with IP litigation,
 and this is a good way to protect a project.
 
 Second, if you're just curious about the copyright of this repository, see the
-License file for details. The short version of this is you can pretty much use
-it however you desire.
+License file for details. The license of individual images is described in 
+`judges.json`.
