@@ -39,7 +39,9 @@ gathering files. The process for this is pretty simple.
 this requires `imagemagick`).
 
 1. Edit `judges.json` to include the relevant fields for your new file such as 
-   the source and the license.
+   the date of the portrait, source, artist, and license. (By default, the 
+   license field is set to "Work of Federal Government", as these photos are 
+   the easiest to procure.)
 
 That's it!
 
@@ -47,9 +49,11 @@ That's it!
 Quality Guidelines
 ------------------
 
-1. Trim any extraneous margins so that the judge's head and shoulders are visible. 
 1. Images must be `jpeg` file format.
-1. Images must be in the public domain or you must dedicate them there, if you took the image yourself.
+1. Images must be in the public domain or you must dedicate them there, if you 
+   took the image yourself. Works of the Federal Government are in the public
+   domain, so generally portraits of Federal judges can be included in this 
+   collection.
 
 
 Installation
