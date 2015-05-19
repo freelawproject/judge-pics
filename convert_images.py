@@ -28,8 +28,10 @@ def set_new_hash(judge_id, new_hash):
     except KeyError:
         judges_json[judge_id] = {
             "hash": new_hash,
-            "license": None,
+            "license": "Work of Federal Government",
             "source": None,
+            "artist": None,
+            "date_created": None,
         }
 
 
@@ -67,7 +69,7 @@ def save_new_json():
         judges_json,
         open('../judges.json', 'w'),
         sort_keys=True,
-        indent=4,
+        indent=2,
     )
 
 if __name__ == '__main__':

@@ -17,17 +17,24 @@ gathering files. The process for this is pretty simple.
 
 1. Add the image file to the `orig` directory.
 
-    Pictures are given the name of the judge they are of in the form:
+    Pictures are given the name of the judge and are of in the form:
 
-        $last-$first-$dob.jpeg
+        $last-$first-$suffix-$dob.jpeg
     
-    So, for example Sonia Sotomayor, born June 25, 1954, would be:
+    Where $dob is only necessary in the case of duplicates. So, for example 
+    Sonia Sotomayor would be:
 
-        sotomayor-sonia-1954-06-25.jpeg
+        sotomayor-sonia.jpeg
     
     Note that the date is in ISO-8601 format, the name is lowercase, and the 
-    extension is jpeg, not jpg. 
-  
+    extension is `jpeg`, not `jpg`.
+    
+    Some judges may have multiple great portraits. For those, place a number 
+    after their name such as:
+     
+        sotomayor-sonia-2.jpeg
+        
+    
 1. Regenerate the converted versions by running `convert_images.py` (note that
 this requires `imagemagick`).
 

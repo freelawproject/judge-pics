@@ -1,7 +1,828 @@
 {
-    "sotomayor-sonia-1954-06-25": {
-        "hash": "d8215bf102190f0f0aef302b4bdda4fcf766779aba89d500c03b1c0f2c00451e", 
-        "license": "Federal Work", 
-        "source": "Wikipedia"
-    }
+  "alito-samuel-jr": {
+    "artist": null, 
+    "date_created": null, 
+    "hash": "bd49d9daf638d5bc08ba4bf045b7eb76e5a3164dfbffa16c8a45d4665d667c47", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "bader-ginsburg-ruth": {
+    "artist": null, 
+    "date_created": null, 
+    "hash": "ca32a498b6f840f03d7ed4e579983051d71ca57b0df370d5b2fd27003139e6a6", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "baldwin-henry": {
+    "artist": "Thomas Sully", 
+    "date_created": null, 
+    "hash": "9382fc6190b433a6efe889e7ed7d713081ccac43fac33ddffaed45e7fa5ee3ba", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "barbour-philip": {
+    "artist": "George P.A. Healy", 
+    "date_created": null, 
+    "hash": "84be43eda4513f2b4b134514862d1a2af2a7466457aabd46cf0766283154648c", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "black-hugo": {
+    "artist": "John Black", 
+    "date_created": null, 
+    "hash": "166e4db2e3149e2e83cebf66f0c87d07b6f208b4fe5caf4df19db5bc4812fcdb", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "blackmun-harry": {
+    "artist": "Everett Raymond Kinstler", 
+    "date_created": null, 
+    "hash": "65226c4facf0a50b58b8e66785e21949b80c964427ab8511f9b28dba9a4c4646", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "blair-john": {
+    "artist": "Ruth Koppang", 
+    "date_created": null, 
+    "hash": "81211000f5602f0edf57adb8de4c9390e574777e7f2ed8a0309966f52d23867b", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "blatchford-samuel": {
+    "artist": "Adrian Lamb", 
+    "date_created": null, 
+    "hash": "e15a3e5f744e19b0ff13b042290a2834b55511b65da111154ffd121279b3750d", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "bradley-joseph": {
+    "artist": "Edmund Clarence Messer", 
+    "date_created": null, 
+    "hash": "d5b43b57cdd2f44145b46a05fac845cedc34562cd2b2ba2cfb2a1c3d6fbfa428", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "brandeis-louis": {
+    "artist": "Eben F. Comins", 
+    "date_created": null, 
+    "hash": "0943e7e929eb39ff1e986478a42f28d409eeaf07f1475048fbef62067df0ac78", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "brennan-william-jr": {
+    "artist": "Paul C. Burns", 
+    "date_created": null, 
+    "hash": "bf52d8e355b65aa3f0cbec620f4974e61ea5f672d2708d25effce1f76b920854", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "brewer-david": {
+    "artist": "Robert Lea MacCameron", 
+    "date_created": null, 
+    "hash": "f6df680ba096fce1ac152807f900bef566b870651cc51ff4a75e2be86c5e98e3", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "breyer-stephen": {
+    "artist": null, 
+    "date_created": null, 
+    "hash": "02c2ae34be2ddbee90e308f7b092a3cbc6b18ecbce72c38fabe1932157d46a38", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "breyer-stephen-2": {
+    "artist": null, 
+    "date_created": null, 
+    "hash": "d6e87a3166ae634af774fecd4a14734ed03b80311bca04a7ca7c62f0b2887eac", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "brown-henry": {
+    "artist": "Lewis Thomas Ives", 
+    "date_created": null, 
+    "hash": "ab4d251d6a8391f09a6e27a3146e345dc311ea50e33d2569565f85d35e8d9cac", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "burger-warren": {
+    "artist": "George Augusta", 
+    "date_created": null, 
+    "hash": "232822fa8e95783cb35bcafa0e6449b324859647cacf5c52f68ab66d05205a4d", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "burton-harold": {
+    "artist": "CJ Fox", 
+    "date_created": null, 
+    "hash": "a8f8d31ae90a857d5dfb2ddb181463ea15f541f8eb771394c79e3c4010ae4728", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "butler-pierce": {
+    "artist": "Nicholas R. Brewer", 
+    "date_created": null, 
+    "hash": "10ee44774bda1348450aaa780f913b6c2f5ebdc13b8e2477f78608207067e952", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "byrnes-james": {
+    "artist": "Grace Annette Dupre", 
+    "date_created": null, 
+    "hash": "adecdbc062e210974d1674d7e4e4ef9067ed6280ef1cb69bf8bcf720e917bba6", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "campbell-john": {
+    "artist": "Erik John Campbell", 
+    "date_created": null, 
+    "hash": "5098f98263e7fcad050af7e7a60b5606cbba17fd1ae55f5237b88e432c13f7dd", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "cardozo-benjamin": {
+    "artist": "Eben F. Comins", 
+    "date_created": null, 
+    "hash": "d000968f88b810852d8d924d95953d5eb515b631c337175bce081bdbb7b67d55", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "catron-john": {
+    "artist": "C. Gregory Stapko", 
+    "date_created": null, 
+    "hash": "26bccc042521b94d71298afbdc44e8479f4fade4d20de82ed18bc538c7834345", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "chase-salmon": {
+    "artist": "William F. Cogswell", 
+    "date_created": null, 
+    "hash": "baa4086d29d324a5526407d4e033029109e7db28daf8e77a3b27df583cfe0fa9", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "chase-samuel": {
+    "artist": "Larry Dodd Wheeler", 
+    "date_created": null, 
+    "hash": "a55efc97fef82ff9b4a29647efe0b179c370e14ad5ea131d752c385c1a8f0ced", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "clark-tom": {
+    "artist": "C. Gregory Stapko", 
+    "date_created": null, 
+    "hash": "613af5bb3eef9cc7cd6ee122881c83ff075d99776e6e97d67792c441dabe1782", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "clarke-john": {
+    "artist": "Edeth Stevenson Wright", 
+    "date_created": null, 
+    "hash": "b3add3186392a04ba1ddb95f9150c60a6635341ec891a697837a7461d59a0fb3", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "clifford-nathan": {
+    "artist": "Joan Trimble-smith", 
+    "date_created": null, 
+    "hash": "49da0004821e5f1563f95b67b6bd2e60c1a07cbda7b97067116e28b49abbabc3", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "curtis-benjamin": {
+    "artist": "C. Gregory Stapko", 
+    "date_created": null, 
+    "hash": "4997234c01b2add70426a0bff6f8f699709b2fe4e04439024b0f756c591d3009", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "cushing-william": {
+    "artist": "C. Gregory Stapko", 
+    "date_created": null, 
+    "hash": "76b87b6ae7350426239c11ebbf3c09df75d0fda5c810377a723358a1e8907009", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "daniel-peter": {
+    "artist": "Earl Clarke Daniel", 
+    "date_created": null, 
+    "hash": "1b1adb10ac351ca2f60522bcccc21436700220b7deeb5c3c3b6778dc28b80f80", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "davis-david": {
+    "artist": "John M. Isaacs", 
+    "date_created": null, 
+    "hash": "8bc49c9669fb330409f73b9a9270d75b0346d9bf40dd7aeb0550943856189ebc", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "day-oconnor-sandra": {
+    "artist": null, 
+    "date_created": null, 
+    "hash": "206acca0e76ab803461aa2d8f99b223327b102a1b6daee7328917dbf39e6b236", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "day-william": {
+    "artist": "Rolf Stoll", 
+    "date_created": null, 
+    "hash": "94c14241dd83e443f5f8cb37d7417ceb9541881d5fb44f29d405efb5fb166856", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "douglas-william": {
+    "artist": "Elek Kanarek", 
+    "date_created": null, 
+    "hash": "fdd121be9a354a5eead0c8736f6be65bc2f36573025d49ab53536cee3b164af4", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "duvall-gabriel": {
+    "artist": "Larry Dodd Wheeler", 
+    "date_created": null, 
+    "hash": "779e7d899578277c681c518e89ecec71368fa9fe7a9f926073747868281303aa", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "ellsworth-oliver": {
+    "artist": "William R. Wheeler (after Ralph Earl)", 
+    "date_created": null, 
+    "hash": "9067333c4f1656580206beb6969d0b395e3a7a3ff009574677ff35e335188bff", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "field-stephen": {
+    "artist": "Albert Rosenthal", 
+    "date_created": null, 
+    "hash": "ddd264f21a8157f14436e25f4f4f4eeee6a6fbb858cb29bf41e5c96fd4b6e27d", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "fiske-stone-harlan": {
+    "artist": "Signed C.J. Fox (painted by others)", 
+    "date_created": null, 
+    "hash": "ec08816a8a6e15ef4dc6e68bb0dfdae86d26457507c9b12c254db306d70e6f09", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "fortas-abe": {
+    "artist": "George Agusta", 
+    "date_created": null, 
+    "hash": "2464e4235855831f86edfcbaa6fb66c61ba489fc1bd1af3b530c902483cc3bf3", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "frankfurter-felix": {
+    "artist": "Gardener Cox", 
+    "date_created": null, 
+    "hash": "0fbf397089906f44ef6fd6b5eea5973aad22fc8ecacc600239daf51d8f4fd105", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "fuller-melville": {
+    "artist": "Albert Rosenthal", 
+    "date_created": null, 
+    "hash": "906be97795be23a77347ac3052ceedccc161521464cc63d6d62d9cee7e9f2e06", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "ginsburg-ruth": {
+    "artist": null, 
+    "date_created": null, 
+    "hash": "f5a954d304de50266fe1b277e20dbfa0578fe66dffe728242b54245b788ce377", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "goldberg-arthur": {
+    "artist": "Lucien Le Breton", 
+    "date_created": null, 
+    "hash": "4856b17b68da96448a50f391a52a9dca76f68b457dc3476a2efb6dfab7c58b25", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "gray-horace": {
+    "artist": "C. Gregory Stapko", 
+    "date_created": null, 
+    "hash": "5662f0621aa3337b344ae435b10d55b5da55f9f55da36d74f1298fb5fa61df55", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "grier-robert": {
+    "artist": "Malcolm Stephens Parcell", 
+    "date_created": null, 
+    "hash": "0f5b5287c44e0a25efc7b7974b26c80366b10f0142646bcd6bc366d1a28afe11", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "harlan-john": {
+    "artist": "Pierre Troubetzkoy", 
+    "date_created": null, 
+    "hash": "7f4bd7eeddb4ed54b2219637ff6e321b539952b469828d2018f30672738d9f21", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "holmes-oliver-jr": {
+    "artist": "Charles Sydney Hopkinson", 
+    "date_created": null, 
+    "hash": "e20c7bca67f470bb2a2e8812a3401d862fe20aabc7d73ec59890201ebffaf052", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "hughes-charles": {
+    "artist": null, 
+    "date_created": null, 
+    "hash": "594906dd68be6c6676276834c3eb6de2eb16fab8894d12cb8bcbc160cd28a531", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "hunt-ward": {
+    "artist": "George P. A. Healy", 
+    "date_created": null, 
+    "hash": "a302974165ff1cee4c105733c5dd81adedd13169d5ac659b6f03420c4e56e4d0", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "iredell-james": {
+    "artist": "C. Gregory Stapko", 
+    "date_created": null, 
+    "hash": "34c58713e4a87b9da8eec03b943ef5adfb0d5d004d67acb0de12bfbb176b3b20", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "jackson-howell": {
+    "artist": "Tempelman", 
+    "date_created": null, 
+    "hash": "07c6deafe457e1dcebfb42f212dea4e663c4ec7b037cfc6d347591c945b93e14", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "jackson-robert": {
+    "artist": "John C. Johnsen", 
+    "date_created": null, 
+    "hash": "3b9986899633f314eaa391e61f8aa52fdd06dd264026fe47904914a778f8c6e6", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "jay-john": {
+    "artist": "Casimir Gregory Stapko (after Gilbert Stuart)", 
+    "date_created": null, 
+    "hash": "eac3a50bdc77cf46d9a736910e9af5dcb2ef0fe16be39723401c48031181b4a3", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "johnson-thomas": {
+    "artist": "John Hesselius", 
+    "date_created": null, 
+    "hash": "9da9286fe51d962a5930526fda1d6f439216534b2f61ca5cb1f377fa82a4057f", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "johnson-william": {
+    "artist": "unknown", 
+    "date_created": null, 
+    "hash": "52e4e9e2044f1f890168fe34fa489361ddd7e3e69eba29acb67892bcc3236f65", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "kagan-elena": {
+    "artist": "Steve Petteway", 
+    "date_created": null, 
+    "hash": "2deb3a59803d11744753b11c92a6ef5b596f75270a8c9b378ad422be8ef6230d", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "kagan-elena-2": {
+    "artist": null, 
+    "date_created": null, 
+    "hash": "8ef5a9c53ca73c49646fae2585047649f6acb88ee52df070870902b449428294", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "kennedy-anthony": {
+    "artist": null, 
+    "date_created": null, 
+    "hash": "781984760c2a2d8da787ecbd5be36a5e3cd942daae57ad9dc57045daa708a1d0", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "lamar-joseph": {
+    "artist": "Julian Lamar", 
+    "date_created": null, 
+    "hash": "ccf69405944d746a692622075e0b33b4a69a7f77a60b2e4212fcb6e64c2c8f75", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "lamar-lucius": {
+    "artist": "Julian Lamar", 
+    "date_created": null, 
+    "hash": "52dbde5b62bfbde345fd2a2880ce86507fd85c62d56ff423584b28f8b5d5f9c3", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "livingston-brockholst": {
+    "artist": "Casimir Gregory Stapko (after Gilbert Stuart)", 
+    "date_created": null, 
+    "hash": "00d4542c8aa9a454a040f8cc8b43cddbbd326e491d484218dd0d346ac4e02c55", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "lurton-horace": {
+    "artist": "C. Gregory Stapko", 
+    "date_created": null, 
+    "hash": "ee712863021b5da7c7c56874660a5e5b2c7f2e3ec7e1c951a5e925bc91ffeb1e", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "marshall-john": {
+    "artist": "Rembrandt Peale", 
+    "date_created": null, 
+    "hash": "c98fd4e265cbee9a9216414f37dcba8edbb9dfd5352ade7fc63c1ca789906ff1", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "marshall-thurgood": {
+    "artist": "Simmie L. Knox", 
+    "date_created": null, 
+    "hash": "9dace4f76c4b951e2cdeee6d1e114cf67135e04a48db781c3ab167dde6414c07", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "matthews-stanley": {
+    "artist": "C. Gregory Stapko", 
+    "date_created": null, 
+    "hash": "e6844a362c605cf9689ceef0dcb8e6231518670df717a7878d124cc9098317d9", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "mckenna-joseph": {
+    "artist": "Edward Wilber D. Hamilton", 
+    "date_created": null, 
+    "hash": "ba9d4499634bc39198682ebb8f05255c76d92b39a52d9303aff0a2ec2a66ec00", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "mckinley-john": {
+    "artist": "Matthew Harris Jouett", 
+    "date_created": null, 
+    "hash": "c161344c3a9d9077bd614308921aeba823ba10cc87be9c8feb82eed048cd2155", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "mclean-john": {
+    "artist": "Charles Bird King", 
+    "date_created": null, 
+    "hash": "3bcb782c2b33279fee9cdaf0cae9fbb54d64a798dced733da5881e785a630ebb", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "mcreynolds-james": {
+    "artist": "Bjorn Egeli", 
+    "date_created": null, 
+    "hash": "69847d1c8a6c6c1efc569081dcc14f2326535564beeabb6ea6e14bfe971c9d84", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "miller-samuel": {
+    "artist": "Cornelia Adele Fassett", 
+    "date_created": null, 
+    "hash": "de5bcdb014eb4ccdf0c249e92595df050f0c72f40be9622c1e7b34ebc511cd92", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "minton-sherman": {
+    "artist": "Grace Annette Dupre", 
+    "date_created": null, 
+    "hash": "ad7a2ad4ff16c53fa2cce64d7292605d4281d194c1153956bba07989718bb960", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "moody-william": {
+    "artist": "C. Gregory Stapko", 
+    "date_created": null, 
+    "hash": "b7189cbc913a1473a2bcb66c37faa8f9e534c01ed70919392fb44e7031bf1dc6", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "moore-alfred": {
+    "artist": "C. Gregory Stapko", 
+    "date_created": null, 
+    "hash": "5e96e9d6c5853689ac551fdbbf523db135e709bfebdd163364e8cbb86685c372", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "murphy-frank": {
+    "artist": "Elek Kanarek", 
+    "date_created": null, 
+    "hash": "1bd22d12fd5af081c53a798124b2233c8f6c242bbf12ccfb4b60031cbac349d3", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "nelson-samuel": {
+    "artist": "Freeman Thorpe", 
+    "date_created": null, 
+    "hash": "d16c73417bd9b3b1bc1142b3dfe1e2571b2298e590d43fa18ec34ec978d00ed6", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "o-connor-sandra": {
+    "artist": "Danni Dawson", 
+    "date_created": "1999", 
+    "hash": "0b806d5cf9745b5bbe015a6d3fa43fd2a39486786a09dfbe7cf7976bba638054", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "paterson-william": {
+    "artist": "C. Gregory Stapko", 
+    "date_created": null, 
+    "hash": "e48484ab43b68d6f951f173ccc5eb3c9f0448a0490cba1c627a2d0de5b8a1375", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "paul-stevens-john": {
+    "artist": null, 
+    "date_created": null, 
+    "hash": "f802469c5f4240bf2fd7d01a733a6ced3774a32e71790cfabee2345dffc442df", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "peckham-rufus": {
+    "artist": "C. Gregory Stapko", 
+    "date_created": null, 
+    "hash": "b9146e732a540447e159edc92f0cd40db53fce814efdc097b91281cbb0995d34", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "pitney-mahlon": {
+    "artist": "Adrian Lamb", 
+    "date_created": null, 
+    "hash": "de74526eeeb47271c46544f768d90c2d757ba9d99dc4940d9c3df0ff84057418", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "powell-lewis-jr": {
+    "artist": "George Augusta", 
+    "date_created": null, 
+    "hash": "1237d043a30a6d4984dfd4d2a540caaed65116b7923fe4b7af442c377dfaa941", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "reed-stanley": {
+    "artist": "Charles Hopkinson", 
+    "date_created": null, 
+    "hash": "cbd52cdaae6e7d9969e51f041c2552c5eb9075c186498a685df4e50b40b1c855", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "rehnquist-william": {
+    "artist": "Thomas Loepp", 
+    "date_created": null, 
+    "hash": "e5832670a560825ab19f4f598521974e50296e131a0732e0faa01f757200e9c8", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "roberts-john": {
+    "artist": null, 
+    "date_created": null, 
+    "hash": "197c78411cb447b8d2d807350195a145364e1cc9d11ab8558832c430e469bd98", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "roberts-john-jr": {
+    "artist": null, 
+    "date_created": null, 
+    "hash": "2d331001a8f2153fc127091d1da40e1d9fa0b0181c4a340f62f022c8fc2ba16d", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "roberts-owen": {
+    "artist": "Alfred Jonniaux", 
+    "date_created": null, 
+    "hash": "7396ddd5df69d89c38a69eb914e0b3f36695e3a652355708c1d92e9acdb56448", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "rutledge-john": {
+    "artist": "Robert Hinckley (after John Trumbull)", 
+    "date_created": null, 
+    "hash": "82e6acef901d2760bfa4f8679ba4f00e40006f702d0c83564cd9804f53423826", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "rutledge-wiley": {
+    "artist": "Harold M. Brett", 
+    "date_created": null, 
+    "hash": "78281dd331f1c2516e00f37a5a001382042c955e20293db09d2c3f2b9b4e3ccb", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "sanford-edward": {
+    "artist": "Eben F. Comins", 
+    "date_created": null, 
+    "hash": "2389311b18fbeab60244799c9f04765c40d4c151e97098072bf71f520bfd40d0", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "scalia-antonin": {
+    "artist": null, 
+    "date_created": null, 
+    "hash": "3c5f47e7f23bbf7bd3316cda26ba1c7822f8f958870748e23ba4450124ee027d", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "shiras-george-jr": {
+    "artist": "A. L. Dohlberg", 
+    "date_created": null, 
+    "hash": "971a83854114e8ec967bdeca6124629a063cffb04bb22dea169d31746be3e31b", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "sotomayor-sonia": {
+    "artist": null, 
+    "date_created": null, 
+    "hash": "d8215bf102190f0f0aef302b4bdda4fcf766779aba89d500c03b1c0f2c00451e", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "souter-david": {
+    "artist": "Pete Souza", 
+    "date_created": null, 
+    "hash": "04ce493035bc43ab269d447fabfaca82e51bf85df666e3195a1dcbb78a6946a4", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "stevens-john": {
+    "artist": "James Ingwersen", 
+    "date_created": "1991", 
+    "hash": "ed97f5a48b993504a16b3fcaef1324c5391bf3d5b4598803e89c31b1230cb538", 
+    "license": null, 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "stewart-potter": {
+    "artist": "Ruth A. Nestor Hamilton", 
+    "date_created": null, 
+    "hash": "83ef707d16306cf69e3d64869f6033a1d7154d3f9efef8755e32f263c3289fa1", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "story-joseph": {
+    "artist": "George P.A. Healy", 
+    "date_created": null, 
+    "hash": "fb2b1554a3ba4318b9bd081bfa670d8205a34c035480aa089646574a7e379564", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "strong-william": {
+    "artist": "Robert Hinckley", 
+    "date_created": null, 
+    "hash": "c2ff82e05883e232ab856930d82c24359725f018b963bcae181f56ba32b353db", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "sutherland-george": {
+    "artist": "Nicholas R. Brewer", 
+    "date_created": null, 
+    "hash": "b131c31773d8d67e82b8382938b90e0c3ea154e1e813bb5cedf233eac3426c5c", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "swayne-noah": {
+    "artist": "C. Gregory Stapko", 
+    "date_created": null, 
+    "hash": "f5120366dfa0aed78fa6314f6ba077e51cc3905131c7c782890482a33aa41e23", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "taft-william-howard": {
+    "artist": "Ernest Ludwig Ipsen", 
+    "date_created": null, 
+    "hash": "81a01c500d5be49a323cc6dad4373eae3947b3b110b20aa6a4a34c5bcc31fcbd", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "taney-roger": {
+    "artist": "George P.A. Healy", 
+    "date_created": null, 
+    "hash": "b4892e3f82552dd88807438fe4f95dc90987e1568c1ac057a8eb1a8417bf165b", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "thomas-clarence": {
+    "artist": null, 
+    "date_created": null, 
+    "hash": "273bf3b597158cec10c29f86df020ebcb45bc58cfc03968f0c2f3a8e2a6968b2", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "thomas-clarence-2": {
+    "artist": null, 
+    "date_created": null, 
+    "hash": "750150e8581fa28428c109a7fd20d86d8e5a8b725c94922e2fdf22130e330321", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "thompson-smith": {
+    "artist": "Ashur B. Durand", 
+    "date_created": null, 
+    "hash": "6995b8e6fe316d46a24d5bb26302521e7a1d579d0755176ecef37e4e14225dfd", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "todd-thomas": {
+    "artist": "Matthew Harris Jouett", 
+    "date_created": null, 
+    "hash": "685f72db47cff41a5b526534ffb58dea45e64eacbbaff46fcf8895a3015497c3", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "trimble-robert": {
+    "artist": "C. Gregory Stapko", 
+    "date_created": null, 
+    "hash": "217fc832c79b22c2fbaa9e0505c6aaa09563803c89e87f50515e48bf98acc589", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "van-devanter-willis": {
+    "artist": "Thomas E. Stephens", 
+    "date_created": null, 
+    "hash": "657edd154bf8f21b2fd60f7dd102a3215f23e8aa37c6ba91e11d33136389b435", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "vinson-fred": {
+    "artist": "William Franklin Draper", 
+    "date_created": null, 
+    "hash": "7eb426b512e4736b14e0b62058d6bc4cb7db0e88c292ab5aea7fdad098e53fea", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "waite-morrison": {
+    "artist": "Israel Quick", 
+    "date_created": null, 
+    "hash": "24dd99434fb45e98622f696bb358a6df9c1c764a19f73dff46f732979b606a4c", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "warren-earl": {
+    "artist": "signed C.J. Fox (painted by others)", 
+    "date_created": null, 
+    "hash": "2ec1a244ed564dcc5a95eb9a573e426c9beb7187d98c80920f8edc771cf8ab63", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "washington-bushrod": {
+    "artist": "Adrian Lamb", 
+    "date_created": null, 
+    "hash": "ff361d5bf3b35b2c9edd86779bc54b072f96c0b134579616e5595463c2dbfb2a", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "wayne-james": {
+    "artist": "John Maier", 
+    "date_created": null, 
+    "hash": "3083374c0a9e781ae49e81fc1866fdbe61f5495d38bffe81c5d5cb80f99f0582", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "white-byron": {
+    "artist": "Chris Owen", 
+    "date_created": null, 
+    "hash": "05ef5daa2b13642ee16bc984d9a4c77e439f5bcc5599bb3254667834f45999c3", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "white-edward": {
+    "artist": "Albert Rosenthal", 
+    "date_created": null, 
+    "hash": "92d20d9597bda9754aea4a3fa0cee2fc50ea4c7500a12b58eb78f1e232504603", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "whittaker-charles": {
+    "artist": "C. J. Fox", 
+    "date_created": null, 
+    "hash": "4fb8de04eaad40c21b866dfdea8a417ebf42c308316ebf04fa2b79b24a006756", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "wilson-james": {
+    "artist": "Robert S. Susan", 
+    "date_created": null, 
+    "hash": "23c9ff2da55ff0e27a2dc7f081ec9b8a94b012a2d1938ecbc05154e67c6eeb77", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "woodbury-levi": {
+    "artist": "unknown", 
+    "date_created": null, 
+    "hash": "7b90d94d8024f0e1d79eb8b59e559722a69408275de9230d205f5c676a3dbba4", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "woods-william": {
+    "artist": "Eric Guide Haupt", 
+    "date_created": null, 
+    "hash": "c362b278f2766d2faee14624e0235b8356144238833db83d2d7f8f5201e63b22", 
+    "license": "Work of Federal Government", 
+    "source": "Collection of the Supreme Court of the United States"
+  }
 }
