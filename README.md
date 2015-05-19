@@ -10,7 +10,10 @@ Contributing
 ------------
 
 This project is blissfully easy to contribute to and we need lots of help
-gathering files. The process for this is pretty simple.
+gathering files. You can see untapped sources for images in the 
+additional-sources.md file. 
+
+The process for this is pretty simple.
 
 1. Find an image and ensure it follows our quality guidelines
 (below).
