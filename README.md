@@ -57,7 +57,7 @@ Quality Guidelines
 
 1. Images must be `jpeg` file format.
 1. Pictures of painted portraits are often skewed and often show the wall where 
-   the portrait is hung. Before submitting, de-skewed the image and crop out 
+   the portrait is hung. Before submitting, de-skew the image and crop out 
    any bits of wall that you can see around the edges.
 1. Images must be in the public domain or you must dedicate them there, if you 
    took the image yourself. Works of the Federal Government are in the public
