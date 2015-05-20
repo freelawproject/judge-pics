@@ -36,13 +36,14 @@ def set_new_hash(judge_id, new_hash):
 
 
 def convert_images():
+    force_check_hashes = False  # Toggle manually to re-run everything.
     for image in os.listdir('.'):
         print "\nProcessing: %s" % image
         judge_id = image.split('.')[0]
         final_name = '%s.jpeg' % judge_id
         current_hash = get_hash_from_file(image)
         old_hash = get_old_hash(image)
-        if current_hash != old_hash:
+        if current_hash != old_hash or force_check_hashes:
             # Update the hash
             set_new_hash(judge_id, current_hash)
 

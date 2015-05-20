@@ -1,4 +1,11 @@
 {
+  "adkins-jesse": {
+    "artist": "Richard C. Henderson", 
+    "date_created": "1981", 
+    "hash": "72134670720a51b7a532e04b96a487c0d3d29da42fd24f6eea049c39492c211e", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
+  }, 
   "alito-samuel-jr": {
     "artist": null, 
     "date_created": null, 
@@ -6,12 +13,26 @@
     "license": "Work of Federal Government", 
     "source": "Collection of the Supreme Court of the United States"
   }, 
+  "anderson-thomas": {
+    "artist": "L.H. Gebbhard", 
+    "date_created": "1981", 
+    "hash": "7bf96d3fdaf53d6ff4525dc6df3e9def698d954d645d0800ff988abf5df29ef9", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
+  }, 
   "bader-ginsburg-ruth": {
     "artist": null, 
     "date_created": null, 
     "hash": "ca32a498b6f840f03d7ed4e579983051d71ca57b0df370d5b2fd27003139e6a6", 
     "license": "Work of Federal Government", 
     "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "bailey-thomas": {
+    "artist": "Richard C. Henderson", 
+    "date_created": "1978", 
+    "hash": "0fdaa5ac0c2db81dcd57b2acf2f331413d3ce9473fc944ad9e28a6e6f236bc96", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
   }, 
   "baldwin-henry": {
     "artist": "Thomas Sully", 
@@ -26,6 +47,27 @@
     "hash": "84be43eda4513f2b4b134514862d1a2af2a7466457aabd46cf0766283154648c", 
     "license": "Work of Federal Government", 
     "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "barnard-job": {
+    "artist": "L.H. Gebbhard", 
+    "date_created": null, 
+    "hash": "c69f830ea94b5e074de73f1a23bff6fa6f72552d3f6ee8f95450e735686a8cde", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
+  }, 
+  "bastian-walter": {
+    "artist": "Richard C. Henderson", 
+    "date_created": null, 
+    "hash": "b1ceff8a6a99a35a6fbe94ad8c1df1fe2d023705df75490827d5b98ce8c30e96", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
+  }, 
+  "bingham-edward": {
+    "artist": "Frederick Carl Smith", 
+    "date_created": null, 
+    "hash": "efe24b003cd088bda80aed81930eb5ee1cdd57c475518fadaf5bcec50073f6bd", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
   }, 
   "black-hugo": {
     "artist": "John Black", 
@@ -54,6 +96,13 @@
     "hash": "e15a3e5f744e19b0ff13b042290a2834b55511b65da111154ffd121279b3750d", 
     "license": "Work of Federal Government", 
     "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "bradley-andrew": {
+    "artist": "L.H. Gebbhard", 
+    "date_created": "1909", 
+    "hash": "ba655184ce475a3a532a083f7bf64f5352a62e2d486072dc19e14cb3792207eb", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
   }, 
   "bradley-joseph": {
     "artist": "Edmund Clarence Messer", 
@@ -104,6 +153,13 @@
     "license": "Work of Federal Government", 
     "source": "Collection of the Supreme Court of the United States"
   }, 
+  "bryant-william": {
+    "artist": "Donald Stivers", 
+    "date_created": null, 
+    "hash": "6d76851f771f0563e124d891917d62ede680efbe2b5e809ef21d9b510daad07a", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
+  }, 
   "burger-warren": {
     "artist": "George Augusta", 
     "date_created": null, 
@@ -146,6 +202,13 @@
     "license": "Work of Federal Government", 
     "source": "Collection of the Supreme Court of the United States"
   }, 
+  "cartter-david": {
+    "artist": "Charles Armor", 
+    "date_created": "1885", 
+    "hash": "fc1c7bcdbca79d2a18bcdb605c0d096d61f0758be447c1bb3910940a05358b17", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
+  }, 
   "catron-john": {
     "artist": "C. Gregory Stapko", 
     "date_created": null, 
@@ -167,6 +230,13 @@
     "license": "Work of Federal Government", 
     "source": "Collection of the Supreme Court of the United States"
   }, 
+  "clabaugh-harry": {
+    "artist": "L.H. Gebbhard", 
+    "date_created": "1916", 
+    "hash": "b3fea588765c384dc1366cfaa03ed18ca2d2bbf2ff3b26e3e0ab976d389cb5c3", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
+  }, 
   "clark-tom": {
     "artist": "C. Gregory Stapko", 
     "date_created": null, 
@@ -187,6 +257,48 @@
     "hash": "49da0004821e5f1563f95b67b6bd2e60c1a07cbda7b97067116e28b49abbabc3", 
     "license": "Work of Federal Government", 
     "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "corcoran-howard": {
+    "artist": "Richard C. Henderson", 
+    "date_created": null, 
+    "hash": "10c5b5d4cee6530c247c398d11c1c91f2cb8b153a0c442780febfdc99e090864", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
+  }, 
+  "covington-harry": {
+    "artist": null, 
+    "date_created": null, 
+    "hash": "b82b0b7c7a0a3907fc3e07fd407780f6b2f764a6eb26f7374476104e46a68571", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
+  }, 
+  "cox-joseph": {
+    "artist": "G. Grisohn", 
+    "date_created": null, 
+    "hash": "fc0fd78c5a686d17ffaa78f46cfe261180f45b0552943a9360f1269a9c67f1b7", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
+  }, 
+  "cox-walter": {
+    "artist": "Harold L. MacDonald", 
+    "date_created": "1900", 
+    "hash": "50fa2d98c3815b80fc7036c314fa16496907509c72452bb3e6f3641f65cc436c", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
+  }, 
+  "cranch-william": {
+    "artist": "John Cranch", 
+    "date_created": null, 
+    "hash": "bb84afe4ee540b62f26197b06b13569f34a1e39da231891030c8ac9904a68fd1", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
+  }, 
+  "curran-edward": {
+    "artist": "Guy Steele Fairlamb", 
+    "date_created": null, 
+    "hash": "4d34246defa432e50a16868c780f9b970ca2ea065ba0e9bc3fcb4daefbfbc5bc", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
   }, 
   "curtis-benjamin": {
     "artist": "C. Gregory Stapko", 
@@ -237,12 +349,33 @@
     "license": "Work of Federal Government", 
     "source": "Collection of the Supreme Court of the United States"
   }, 
+  "duckett-allen": {
+    "artist": "J.G. Fletcher", 
+    "date_created": "1889", 
+    "hash": "0fcd9a04487decc2352017af0f16c6a42fcffb67ad37051399f9af088c8e31e7", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
+  }, 
+  "dunlop-james": {
+    "artist": "Charles Armor", 
+    "date_created": "1877", 
+    "hash": "71f81fad0c2023600a988c9395f95507ff9cdd4c020d6f27dc972b673b0142be", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
+  }, 
   "duvall-gabriel": {
     "artist": "Larry Dodd Wheeler", 
     "date_created": null, 
     "hash": "779e7d899578277c681c518e89ecec71368fa9fe7a9f926073747868281303aa", 
     "license": "Work of Federal Government", 
     "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "eicher-edward": {
+    "artist": "Richard C. Henderson", 
+    "date_created": "1981", 
+    "hash": "f8dbfdaacc4a482e2160c254f3bc7a25188ac86bf8e496e07b50519fb87ffcee", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
   }, 
   "ellsworth-oliver": {
     "artist": "William R. Wheeler (after Ralph Earl)", 
@@ -258,12 +391,26 @@
     "license": "Work of Federal Government", 
     "source": "Collection of the Supreme Court of the United States"
   }, 
+  "fisher-george": {
+    "artist": "Richard C. Henderson", 
+    "date_created": "1983", 
+    "hash": "021d73e8c65c4567af0981a6be82c660961db7ab38daddde1ae411784897c437", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
+  }, 
   "fiske-stone-harlan": {
     "artist": "Signed C.J. Fox (painted by others)", 
     "date_created": null, 
     "hash": "ec08816a8a6e15ef4dc6e68bb0dfdae86d26457507c9b12c254db306d70e6f09", 
     "license": "Work of Federal Government", 
     "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "flannery-thomas": {
+    "artist": "Donald Stivers", 
+    "date_created": null, 
+    "hash": "be4b4e87f6a0a30160c27e031818e1e9775b8ad973fe048672cf92f40587b9e6", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
   }, 
   "fortas-abe": {
     "artist": "George Agusta", 
@@ -279,12 +426,33 @@
     "license": "Work of Federal Government", 
     "source": "Collection of the Supreme Court of the United States"
   }, 
+  "friedman-paul": {
+    "artist": "John R. Friedman", 
+    "date_created": null, 
+    "hash": "8189c80ca37fbb4c7014bf885fd57536b26ad43b61b29352d89c116a2ded41df", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
+  }, 
   "fuller-melville": {
     "artist": "Albert Rosenthal", 
     "date_created": null, 
     "hash": "906be97795be23a77347ac3052ceedccc161521464cc63d6d62d9cee7e9f2e06", 
     "license": "Work of Federal Government", 
     "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "gasch-oliver": {
+    "artist": "Donald Stivers", 
+    "date_created": null, 
+    "hash": "7be0af77b70050bef09370cb1de9372c8e5fa6eef48c9bb32e41a22b672d7a5c", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
+  }, 
+  "gesell-gerhard": {
+    "artist": "Peter Nelson Thrasher", 
+    "date_created": null, 
+    "hash": "3b04a355a71e5b292494fe7bfea3cf789bb925306f834a809e8b1542a0e2d353", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
   }, 
   "ginsburg-ruth": {
     "artist": null, 
@@ -300,12 +468,54 @@
     "license": "Work of Federal Government", 
     "source": "Collection of the Supreme Court of the United States"
   }, 
+  "goldsborough-thomas": {
+    "artist": "Richard C. Henderson", 
+    "date_created": "1981", 
+    "hash": "4fbc16cbde650419a35d7526c0185b67a74404f122f29b1381b140cc8e5df396", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
+  }, 
+  "gordon-peyton": {
+    "artist": "Richard C. Henderson", 
+    "date_created": "1980", 
+    "hash": "0f10c640740d06a9ad294efb5ac7158ff81d9cc2523ce12844357f792733107b", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
+  }, 
+  "gould-ashley": {
+    "artist": "L.H. Gebbhard", 
+    "date_created": null, 
+    "hash": "b84c8565c89a1059e30ad3e006c77ae8aa81e36d06d6914d101fa57a9e63e31a", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
+  }, 
   "gray-horace": {
     "artist": "C. Gregory Stapko", 
     "date_created": null, 
     "hash": "5662f0621aa3337b344ae435b10d55b5da55f9f55da36d74f1298fb5fa61df55", 
     "license": "Work of Federal Government", 
     "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "green-joyce": {
+    "artist": "Donald Stivers", 
+    "date_created": null, 
+    "hash": "d0735d9464cd9d8445f59d8c2c1d18064da5db3e1bac3437a5071a9987ac6f1b", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
+  }, 
+  "green-june": {
+    "artist": "Peter Evan Egeli", 
+    "date_created": null, 
+    "hash": "70ddc8abec2fd83623cd7c894c1910bce595bf43c0925a7977dc32d86f82cd12", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
+  }, 
+  "greene-harold": {
+    "artist": "Donald Stivers", 
+    "date_created": null, 
+    "hash": "20d7697e1d2cd2907116120a3616acd0772f6c5b383cd2f73cdf0506b55dd869", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
   }, 
   "grier-robert": {
     "artist": "Malcolm Stephens Parcell", 
@@ -314,12 +524,54 @@
     "license": "Work of Federal Government", 
     "source": "Collection of the Supreme Court of the United States"
   }, 
+  "hagner-alexander": {
+    "artist": null, 
+    "date_created": null, 
+    "hash": "049b294f5735d1d3e215b83a2a52793a27b58f0bd780f5ea252ae292bf8c8c61", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
+  }, 
+  "hagner-alexander-2": {
+    "artist": "Charles Harold L. MacDonald", 
+    "date_created": null, 
+    "hash": "afe742ebd1a3e67dc262731e8a18752564215503371f3050b29dd1ae9ca37eca", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
+  }, 
   "harlan-john": {
     "artist": "Pierre Troubetzkoy", 
     "date_created": null, 
     "hash": "7f4bd7eeddb4ed54b2219637ff6e321b539952b469828d2018f30672738d9f21", 
     "license": "Work of Federal Government", 
     "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "harris-stanley": {
+    "artist": "Daniel B. Mistrik", 
+    "date_created": null, 
+    "hash": "648923396445af3c1075e3aab136af274f808aa5ad011d3390d58a59129ed621", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
+  }, 
+  "hart-george-jr": {
+    "artist": "Donald Stivers", 
+    "date_created": null, 
+    "hash": "a7bd529ea53345a823c9f5b68c9b1eac5776c7343a9d81854afd676259006072", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
+  }, 
+  "hitz-william": {
+    "artist": "J.I. Johnson", 
+    "date_created": "1936", 
+    "hash": "54ff10c0e23710498895085db4d7d0b49fc47b1cd96aae216b64c0ae38a14dfd", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
+  }, 
+  "hoehling-adolph-jr": {
+    "artist": null, 
+    "date_created": null, 
+    "hash": "33a20c87dd89670ddd62974aba77544f8f29c8e134b88b85c79a79dd8502469c", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
   }, 
   "holmes-oliver-jr": {
     "artist": "Charles Sydney Hopkinson", 
@@ -328,12 +580,26 @@
     "license": "Work of Federal Government", 
     "source": "Collection of the Supreme Court of the United States"
   }, 
+  "holtzoff-alexander": {
+    "artist": "Chase Studios", 
+    "date_created": null, 
+    "hash": "7bbceb256c5b8f1518ce41971e085f8fa4c1890e9118d4d8e0f4031134a9a2b2", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
+  }, 
   "hughes-charles": {
     "artist": null, 
     "date_created": null, 
     "hash": "594906dd68be6c6676276834c3eb6de2eb16fab8894d12cb8bcbc160cd28a531", 
     "license": "Work of Federal Government", 
     "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "humphreys-david": {
+    "artist": "Richard C. Henderson", 
+    "date_created": "1984", 
+    "hash": "6593cf00363875eeb8156ac60f64f1542ba6c1892316da6d2cd079923ccee4a3", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
   }, 
   "hunt-ward": {
     "artist": "George P. A. Healy", 
@@ -363,12 +629,33 @@
     "license": "Work of Federal Government", 
     "source": "Collection of the Supreme Court of the United States"
   }, 
+  "jackson-thomas": {
+    "artist": "Peter Evan Egeli", 
+    "date_created": null, 
+    "hash": "eeb4f64b39d6da1ae6a6e2bcf966fdd5e368266099cb70843d2ca980598d9650", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
+  }, 
+  "james-charles": {
+    "artist": null, 
+    "date_created": null, 
+    "hash": "a95744a0ac12549695a5f2e26edcdf14a974d7386c2efd4811cab5402596f868", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
+  }, 
   "jay-john": {
     "artist": "Casimir Gregory Stapko (after Gilbert Stuart)", 
     "date_created": null, 
     "hash": "eac3a50bdc77cf46d9a736910e9af5dcb2ef0fe16be39723401c48031181b4a3", 
     "license": "Work of Federal Government", 
     "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "johnson-norma": {
+    "artist": "Simmie Knox", 
+    "date_created": null, 
+    "hash": "bfcd450c1b63283fa92d77bd68cd192db1ba2b7a3d7f34bbc93c270e688e67f3", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
   }, 
   "johnson-thomas": {
     "artist": "John Hesselius", 
@@ -377,12 +664,26 @@
     "license": "Work of Federal Government", 
     "source": "Collection of the Supreme Court of the United States"
   }, 
+  "johnson-thomas-2": {
+    "artist": "Richard C. Henderson", 
+    "date_created": null, 
+    "hash": "1bd43af676efdad18eee00ff76d23a76d5ea746dc0449fa7dffa071a31693c81", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
+  }, 
   "johnson-william": {
     "artist": "unknown", 
     "date_created": null, 
     "hash": "52e4e9e2044f1f890168fe34fa489361ddd7e3e69eba29acb67892bcc3236f65", 
     "license": "Work of Federal Government", 
     "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "jones-willliam": {
+    "artist": "Lloyd Bowers Embry", 
+    "date_created": null, 
+    "hash": "d59e936d9c81d86251da6e7286aa2a66f15a8e5f86518e8a73ccd5e431e508c7", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
   }, 
   "kagan-elena": {
     "artist": "Steve Petteway", 
@@ -398,12 +699,26 @@
     "license": "Work of Federal Government", 
     "source": "Collection of the Supreme Court of the United States"
   }, 
+  "keech-richmond": {
+    "artist": "Chase Studios", 
+    "date_created": null, 
+    "hash": "0f84aa1ea5996ab8b02d4f39ec9a87255b6bfd9c821722bb3cb9ec4093c416f5", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
+  }, 
   "kennedy-anthony": {
     "artist": null, 
     "date_created": null, 
     "hash": "781984760c2a2d8da787ecbd5be36a5e3cd942daae57ad9dc57045daa708a1d0", 
     "license": "Work of Federal Government", 
     "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "kirkland-james": {
+    "artist": "Richard C. Henderson", 
+    "date_created": "1978", 
+    "hash": "f217b65ed8ac3faa6ffc54474177e99dd0b41def756ea848b6eec9c8509bef2d", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
   }, 
   "lamar-joseph": {
     "artist": "Julian Lamar", 
@@ -419,6 +734,20 @@
     "license": "Work of Federal Government", 
     "source": "Collection of the Supreme Court of the United States"
   }, 
+  "laws-bolitha": {
+    "artist": "Peter Evan Egeli", 
+    "date_created": null, 
+    "hash": "c20911f2d2a88d4e4827dcfa12502ece9941c12a6c921aa3a53743d8203fdc36", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
+  }, 
+  "letts-dickenson": {
+    "artist": "Richard C. Henderson", 
+    "date_created": "1979", 
+    "hash": "d1f038cb6bcc031ee040453f8ef5ac07b92fbb86091abd3d33f4b0d7c967aa82", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
+  }, 
   "livingston-brockholst": {
     "artist": "Casimir Gregory Stapko (after Gilbert Stuart)", 
     "date_created": null, 
@@ -426,12 +755,33 @@
     "license": "Work of Federal Government", 
     "source": "Collection of the Supreme Court of the United States"
   }, 
+  "luhring-oscar": {
+    "artist": "Richard C. Henderson", 
+    "date_created": "1979", 
+    "hash": "464dd164f86490ec72e06089eec3652c8cb7d475a189a93dd34b3d19a6dff130", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
+  }, 
   "lurton-horace": {
     "artist": "C. Gregory Stapko", 
     "date_created": null, 
     "hash": "ee712863021b5da7c7c56874660a5e5b2c7f2e3ec7e1c951a5e925bc91ffeb1e", 
     "license": "Work of Federal Government", 
     "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "macarthur-arthur": {
+    "artist": "E.T. Andrews", 
+    "date_created": "1887", 
+    "hash": "fdf6199d68ceec6fc0b75206d06f1daef09a08ce53d7efc20b1403e40e425296", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
+  }, 
+  "marshall-james": {
+    "artist": "Richard C. Henderson", 
+    "date_created": "1983", 
+    "hash": "960109c0fa20369dde89fc87ed27a6323c31be1dea70000f32e716bb887a15fb", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
   }, 
   "marshall-john": {
     "artist": "Rembrandt Peale", 
@@ -447,12 +797,47 @@
     "license": "Work of Federal Government", 
     "source": "Collection of the Supreme Court of the United States"
   }, 
+  "matthews-burnita": {
+    "artist": "Roma Christine Harlan", 
+    "date_created": null, 
+    "hash": "725e6e72f6e1f6569bff549af5aefac76a6a8230027b4e7d521280de1445a87a", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
+  }, 
   "matthews-stanley": {
     "artist": "C. Gregory Stapko", 
     "date_created": null, 
     "hash": "e6844a362c605cf9689ceef0dcb8e6231518670df717a7878d124cc9098317d9", 
     "license": "Work of Federal Government", 
     "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "mccomas-louis": {
+    "artist": "Richard C. Henderson", 
+    "date_created": "1984", 
+    "hash": "aeb10bda58af0d1aa598c082276da7678e72ee3d25f6305b7f7bd14477d2619d", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
+  }, 
+  "mccoy-walter": {
+    "artist": null, 
+    "date_created": "1931", 
+    "hash": "0bd809d475875c98c0b720ab8c93586dc0fb669a150a69e2373dc93f92d36846", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
+  }, 
+  "mcgarraghy-joseph": {
+    "artist": "C.J. Fox", 
+    "date_created": null, 
+    "hash": "97bf3dc25fc1ef689d122fbfda7d9755e6699782ac8c2a5b20ecd60d55d5e0ec", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
+  }, 
+  "mcguire-matthew": {
+    "artist": "Chas Fagan", 
+    "date_created": null, 
+    "hash": "e49913a5dbe228cc4a5ba92af1628aafb35228e20406c2c9e448e834bc5c1023", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
   }, 
   "mckenna-joseph": {
     "artist": "Edward Wilber D. Hamilton", 
@@ -482,6 +867,13 @@
     "license": "Work of Federal Government", 
     "source": "Collection of the Supreme Court of the United States"
   }, 
+  "merrick-william": {
+    "artist": null, 
+    "date_created": null, 
+    "hash": "ae338ce90e20db5e617b83f94606c76035f949e7c210062f93d4cb65e8dfed54", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
+  }, 
   "miller-samuel": {
     "artist": "Cornelia Adele Fassett", 
     "date_created": null, 
@@ -510,6 +902,20 @@
     "license": "Work of Federal Government", 
     "source": "Collection of the Supreme Court of the United States"
   }, 
+  "morris-james": {
+    "artist": "Richard C. Henderson", 
+    "date_created": "1980", 
+    "hash": "cb0337069c8a956ec272531c0296403a87d9d92c6837588d8bef75346e73aa89", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
+  }, 
+  "morsell-james": {
+    "artist": null, 
+    "date_created": "1980", 
+    "hash": "1fc10424257b6060e7ff4c134d10ef1560c762e8c200a9b7013c5bc1e72c31f6", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
+  }, 
   "murphy-frank": {
     "artist": "Elek Kanarek", 
     "date_created": null, 
@@ -530,6 +936,34 @@
     "hash": "0b806d5cf9745b5bbe015a6d3fa43fd2a39486786a09dfbe7cf7976bba638054", 
     "license": "Work of Federal Government", 
     "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "o-donoghue-daniel": {
+    "artist": "S. Horing", 
+    "date_created": null, 
+    "hash": "509f00e57fbb360c75407690b4a2ba457270a948898c82cc6374d503fdabdb59", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
+  }, 
+  "oberdorfer-louis": {
+    "artist": "Donald Stivers", 
+    "date_created": null, 
+    "hash": "85b5a310fafc5cada840366cf2c9b3b6001c67d8fef589843d578d3ba5231259", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
+  }, 
+  "olin-abram": {
+    "artist": "Richard C. Henderson", 
+    "date_created": "1983", 
+    "hash": "d95b73d87886f2afc5c09582aea21888e8b7354ca208899b7043cf124fb95261", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
+  }, 
+  "parker-barrington": {
+    "artist": "Donald Stivers", 
+    "date_created": null, 
+    "hash": "fab311fe15e77b56961b9b9a75c8ebbe3948b437de39a5ba14169b9521ed95fa", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
   }, 
   "paterson-william": {
     "artist": "C. Gregory Stapko", 
@@ -552,6 +986,20 @@
     "license": "Work of Federal Government", 
     "source": "Collection of the Supreme Court of the United States"
   }, 
+  "penn-john": {
+    "artist": "Simmie Knox", 
+    "date_created": null, 
+    "hash": "9791911d3be37fd1049dfc138e9723b19f3eb8baf308914a0b316c0db0e92059", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
+  }, 
+  "pine-david": {
+    "artist": "Chase Studios", 
+    "date_created": null, 
+    "hash": "f803a06042db0a948af0d0ef0cad0ed1ae1ad45c74bb209e31b3fd36e120f583", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
+  }, 
   "pitney-mahlon": {
     "artist": "Adrian Lamb", 
     "date_created": null, 
@@ -566,6 +1014,20 @@
     "license": "Work of Federal Government", 
     "source": "Collection of the Supreme Court of the United States"
   }, 
+  "pratt-john": {
+    "artist": "Ned Bittinger", 
+    "date_created": null, 
+    "hash": "b67a20dbcd6f33fe8d3b3fb7f0bcdfb2567e14a1e92d7ee06bc18a77877967c0", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
+  }, 
+  "proctor-james": {
+    "artist": "Richard C. Henderson", 
+    "date_created": "1979", 
+    "hash": "7522d1ea9159fbee6611618f5bd98f82981ad905454a10fd1e57e9dd74540aa1", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
+  }, 
   "reed-stanley": {
     "artist": "Charles Hopkinson", 
     "date_created": null, 
@@ -579,6 +1041,20 @@
     "hash": "e5832670a560825ab19f4f598521974e50296e131a0732e0faa01f757200e9c8", 
     "license": "Work of Federal Government", 
     "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "revercomb-george": {
+    "artist": "James Boice Hevener", 
+    "date_created": null, 
+    "hash": "d613515936a7c895393e25e2551246710e85bfa3f958f38958c7e34520af2557", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
+  }, 
+  "richey-charles": {
+    "artist": "Peter Evan Egeli", 
+    "date_created": null, 
+    "hash": "87f33af0c836f6953c0f8be959efc51b0cf2097dc0de11bd20e6c54366acc8e2", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
   }, 
   "roberts-john": {
     "artist": null, 
@@ -600,6 +1076,27 @@
     "hash": "7396ddd5df69d89c38a69eb914e0b3f36695e3a652355708c1d92e9acdb56448", 
     "license": "Work of Federal Government", 
     "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "robertson-james": {
+    "artist": "Annette Polan", 
+    "date_created": null, 
+    "hash": "9a4f1990fac716df1e5dc44a417092c5086b1b7df60db7b3856631dbeebe76d5", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
+  }, 
+  "robinson-aubrey-jr": {
+    "artist": "Simmie Knox", 
+    "date_created": null, 
+    "hash": "6bca6fbf6b3b335c83ae75dcabc9a94b9b227039b4e68861d141b1e772a3fd72", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
+  }, 
+  "robinson-spottswood-iii": {
+    "artist": "Richard C. Henderson", 
+    "date_created": null, 
+    "hash": "2fb3c87ae1bb972b4b059dffbc2b25c9ca27eef486380f2a5568cfff76e8ffdf", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
   }, 
   "rutledge-john": {
     "artist": "Robert Hinckley (after John Trumbull)", 
@@ -629,12 +1126,40 @@
     "license": "Work of Federal Government", 
     "source": "Collection of the Supreme Court of the United States"
   }, 
+  "schweinhaut-henry": {
+    "artist": "Richard C. Henderson", 
+    "date_created": "1980", 
+    "hash": "7a67c6da70c413f130d510a81221d9baad392ca72fce2db1148fb4a737a9f878", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
+  }, 
   "shiras-george-jr": {
     "artist": "A. L. Dohlberg", 
     "date_created": null, 
     "hash": "971a83854114e8ec967bdeca6124629a063cffb04bb22dea169d31746be3e31b", 
     "license": "Work of Federal Government", 
     "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "siddons-frederick": {
+    "artist": null, 
+    "date_created": "1932", 
+    "hash": "26f08a14d8bc117394105db3adaf28ccca3c5e76d6dacf3afaec0df33c7e53ea", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
+  }, 
+  "sirica-john": {
+    "artist": "Peter Stevens", 
+    "date_created": null, 
+    "hash": "1a6ec6afea4956075fe28c41881506ea7afa95d6aee209c78dbb4bf76b57c2a5", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
+  }, 
+  "smith-john-jr": {
+    "artist": "Marcella Comes", 
+    "date_created": null, 
+    "hash": "1cd25e5d0a7a6bb53861d2efb69687b8aabc7289e87da078cc7da94b2705b783", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
   }, 
   "sotomayor-sonia": {
     "artist": null, 
@@ -649,6 +1174,20 @@
     "hash": "04ce493035bc43ab269d447fabfaca82e51bf85df666e3195a1dcbb78a6946a4", 
     "license": "Work of Federal Government", 
     "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "sporkin-stanley": {
+    "artist": "Michael Shane Neal", 
+    "date_created": null, 
+    "hash": "3a3e9d7f5416e1f2dcd84c2c4f7f9bad1e5924d43ad98395488b911d26f3baf4", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
+  }, 
+  "stafford-wendell": {
+    "artist": null, 
+    "date_created": null, 
+    "hash": "a93c7211f157754497649232fd7da83e04d4da76d597c28eaa0eccb6e920633b", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
   }, 
   "stevens-john": {
     "artist": "James Ingwersen", 
@@ -699,6 +1238,13 @@
     "license": "Work of Federal Government", 
     "source": "Collection of the Supreme Court of the United States"
   }, 
+  "tamm-edward": {
+    "artist": "Richard C. Henderson", 
+    "date_created": "1981", 
+    "hash": "8d19412778860c2425a4cf321cf34e08d7a3ec3a02d4a1a2a660ce3a2e470c9d", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
+  }, 
   "taney-roger": {
     "artist": "George P.A. Healy", 
     "date_created": null, 
@@ -726,6 +1272,13 @@
     "hash": "6995b8e6fe316d46a24d5bb26302521e7a1d579d0755176ecef37e4e14225dfd", 
     "license": "Work of Federal Government", 
     "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "thurston-buckner": {
+    "artist": "TUFF", 
+    "date_created": "1884", 
+    "hash": "3e3d3e184d4fde4d18910ffa8e6fbb5dbf3af5c64c8b0e85d580beda9369512e", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
   }, 
   "todd-thomas": {
     "artist": "Matthew Harris Jouett", 
@@ -755,12 +1308,26 @@
     "license": "Work of Federal Government", 
     "source": "Collection of the Supreme Court of the United States"
   }, 
+  "waddy-joseph": {
+    "artist": "Richard C. Henderson", 
+    "date_created": null, 
+    "hash": "7f0648aa1f01ed1b37603b790c79c47eddc4f95c3cd7825f3571b6b31933349b", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
+  }, 
   "waite-morrison": {
     "artist": "Israel Quick", 
     "date_created": null, 
     "hash": "24dd99434fb45e98622f696bb358a6df9c1c764a19f73dff46f732979b606a4c", 
     "license": "Work of Federal Government", 
     "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "walsh-leonard": {
+    "artist": "Richard C. Henderson", 
+    "date_created": null, 
+    "hash": "c039994dc12c01f0693ef8c78ce5c780b071e0f52fca5184a1c73c6203f485cf", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
   }, 
   "warren-earl": {
     "artist": "signed C.J. Fox (painted by others)", 
@@ -782,6 +1349,13 @@
     "hash": "3083374c0a9e781ae49e81fc1866fdbe61f5495d38bffe81c5d5cb80f99f0582", 
     "license": "Work of Federal Government", 
     "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "wheat-alfred": {
+    "artist": "Richard C. Henderson", 
+    "date_created": null, 
+    "hash": "8e148701c48ccfea959660279260bb321908ce750a5d768dd7a42cded2f11011", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
   }, 
   "white-byron": {
     "artist": "Chris Owen", 
@@ -824,5 +1398,26 @@
     "hash": "c362b278f2766d2faee14624e0235b8356144238833db83d2d7f8f5201e63b22", 
     "license": "Work of Federal Government", 
     "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "wright-daniel": {
+    "artist": "Richard C. Henderson", 
+    "date_created": "1982", 
+    "hash": "4218ef2633786d4037dd8742e53c2a00d62a64bf7ecec5afcda05fd413378f74", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
+  }, 
+  "wylie-andrew": {
+    "artist": "Henry Ulke", 
+    "date_created": null, 
+    "hash": "7c5329ab7be9a3ef65cbe889cf316e29b08c894c424c73b1094d16696a324c2a", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
+  }, 
+  "youngdahl-luther": {
+    "artist": "Robert Francis Williams", 
+    "date_created": null, 
+    "hash": "99e951dbfdef07d86e836017e654fac294ac7f243a85e7d54abec4b649fdb4a8", 
+    "license": "Work of Federal Government", 
+    "source": "Historical Society of the District of Columbia Circuit"
   }
 }

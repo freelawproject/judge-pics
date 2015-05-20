@@ -36,18 +36,6 @@ use and re-use them.
 Note also that there are individual webpages that are easy to scrape: 
 
  - http://www.courts.phila.gov/portraits/bio.asp?P=9&keepThis=true&
- 
-
-History Society of the District of Columbia
--------------------------------------------
-The History Society of the District of Columbia has created a collection of 
-online portraits, here: 
-
- - http://dcchs.org/Portraits/exhibit.html
-
-These look like they'd be great to get our hands on, and that they are likely 
-works of the Federal Government. There are about 90 images here, some of which
-would benefit from retouching.
 
 
 Ramsey County Law Library Blog
