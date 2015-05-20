@@ -133,11 +133,11 @@ About 25 pics of Federal Circuit judges. The following attribution is requested:
 
 Assorted Other Sources
 ----------------------
-CA Superior Court: http://www.glenncourt.ca.gov/general_info/whoswho/judge.html
-WA Supreme Court: http://www.courts.wa.gov/appellate_trial_courts/SupremeCourt/?fa=supremecourt.home&scRequest=members
-CA8, but disorganized: http://www.lb8.uscourts.gov/pubsandservices/histsociety/hist_society.html
-CA10, nice collection: http://www.10thcircuithistory.org/judge-bios-n-s/
-MI, about 100 pics: http://www.micourthistory.org/justices/
-NC, ~30 pics: http://www.ncschs.net/Justices_of_the_Court.aspx
+CA Superior Court: http://www.glenncourt.ca.gov/general_info/whoswho/judge.html  
+WA Supreme Court: http://www.courts.wa.gov/appellate_trial_courts/SupremeCourt/?fa=supremecourt.home&scRequest=members  
+CA8, but disorganized: http://www.lb8.uscourts.gov/pubsandservices/histsociety/hist_society.html  
+CA10, nice collection: http://www.10thcircuithistory.org/judge-bios-n-s/  
+MI, about 100 pics: http://www.micourthistory.org/justices/  
+NC, ~30 pics: http://www.ncschs.net/Justices_of_the_Court.aspx  
 
 You can also find lots of things by looking for historical societies.
