@@ -11,7 +11,7 @@ Contributing
 
 This project is blissfully easy to contribute to and we need lots of help
 gathering files. You can see untapped sources for images in the 
-additional-sources.md file. 
+[additional-sources.md][add] file. 
 
 The process for this is pretty simple.
 
@@ -29,8 +29,11 @@ The process for this is pretty simple.
 
         sotomayor-sonia.jpeg
     
-    Note that the date is in ISO-8601 format, the name is lowercase, and the 
-    extension is `jpeg`, not `jpg`.
+    Note that dates should be set using ISO-8601 format, the name is lowercase, 
+    and the extension is `jpeg`, not `jpg`. Any punctuation marks in a judge's
+    name should be converted to a dash. For example:
+    
+        o-connor-sandra.jpeg
     
     Some judges may have multiple great portraits. For those, place a number 
     after their name such as:
@@ -53,6 +56,9 @@ Quality Guidelines
 ------------------
 
 1. Images must be `jpeg` file format.
+1. Pictures of painted portraits are often skewed and often show the wall where 
+   the portrait is hung. Before submitting, de-skewed the image and crop out 
+   any bits of wall that you can see around the edges.
 1. Images must be in the public domain or you must dedicate them there, if you 
    took the image yourself. Works of the Federal Government are in the public
    domain, so generally portraits of Federal judges can be included in this 
@@ -83,3 +89,6 @@ and this is a good way to protect a project.
 Second, if you're just curious about the copyright of this repository, see the
 License file for details. The license of individual images is described in 
 `judges.json`.
+
+
+[add]: https://github.com/freelawproject/judge-pics/blob/master/additional-sources.md
