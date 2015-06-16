@@ -139,5 +139,6 @@ CA8, but disorganized: http://www.lb8.uscourts.gov/pubsandservices/histsociety/h
 CA10, nice collection: http://www.10thcircuithistory.org/judge-bios-n-s/  
 MI, about 100 pics: http://www.micourthistory.org/justices/  
 NC, ~30 pics: http://www.ncschs.net/Justices_of_the_Court.aspx  
+KY, http://courts.ky.gov/courts/coa/Pages/coa.aspx and http://courts.ky.gov/courts/supreme/Pages/supremecourt.aspx  
 
 You can also find lots of things by looking for historical societies.

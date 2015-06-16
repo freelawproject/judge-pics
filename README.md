@@ -29,9 +29,12 @@ The process for this is pretty simple.
 
         sotomayor-sonia.jpeg
     
-    Note that dates should be set using ISO-8601 format, the name is lowercase, 
-    and the extension is `jpeg`, not `jpg`. Any punctuation marks in a judge's
-    name should be converted to a dash. For example:
+    Note that dates should be set [using ISO-8601 format][8601], the name is 
+    lowercase, and the extension is `jpeg`, not `jpg`. Any punctuation marks in 
+    a judge's name should be converted to a dash, according to [Django's slugify 
+    function][slugify]. 
+    
+    For example:
     
         o-connor-sandra.jpeg
     
@@ -92,3 +95,5 @@ License file for details. The license of individual images is described in
 
 
 [add]: https://github.com/freelawproject/judge-pics/blob/master/additional-sources.md
+[slugify]: https://docs.djangoproject.com/en/1.8/_modules/django/utils/text/#slugify
+[8601]: http://en.wikipedia.org/wiki/ISO_8601
