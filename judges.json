@@ -181,6 +181,13 @@
     "license": "Work of Federal Government", 
     "source": "Collection of the Supreme Court of the United States"
   }, 
+  "burke-liles": {
+    "artist": null, 
+    "date_created": null, 
+    "hash": "b924ddaeaf133ca5f7129c786ecb99429633d358b58efc0c222b72918c9e4076", 
+    "license": null, 
+    "source": "Alabama Court Website"
+  }, 
   "burton-harold": {
     "artist": "CJ Fox", 
     "date_created": null, 
@@ -355,6 +362,13 @@
     "hash": "9e7dab1d0e985a57fe7847ab5c74efdc72efbaed57676413f6aa1d33888cd81e", 
     "license": "Work of Federal Government", 
     "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "donaldson-scott": {
+    "artist": null, 
+    "date_created": null, 
+    "hash": "35631100a1e55076614cdf4da02ba30cc3cc9e85a9b40f0decdf23c9c7919bab", 
+    "license": null, 
+    "source": "Alabama Court Website"
   }, 
   "douglas-william": {
     "artist": "Elek Kanarek", 
@@ -692,6 +706,13 @@
     "license": "Work of Federal Government", 
     "source": "Collection of the Supreme Court of the United States"
   }, 
+  "joiner-michael": {
+    "artist": null, 
+    "date_created": null, 
+    "hash": "b92e16cee36f2a9aaf3d4c4d4a7c1e0da72bb7c5e7e31dddb1e4b06402db7e44", 
+    "license": null, 
+    "source": "Alabama Court Website"
+  }, 
   "jones-willliam": {
     "artist": "Lloyd Bowers Embry", 
     "date_created": null, 
@@ -719,6 +740,13 @@
     "hash": "b3da6856abbb9aa01fff0f85b5a69049124adafa0a4569aa757043072c4e1775", 
     "license": "Work of Federal Government", 
     "source": "Historical Society of the District of Columbia Circuit"
+  }, 
+  "kellum-elizabeth": {
+    "artist": null, 
+    "date_created": null, 
+    "hash": "61463699d8631c7dfeb1ad820b01be0f895df46a434ab9cc54d7f36a3bb26b8d", 
+    "license": null, 
+    "source": "Alabama Court Website"
   }, 
   "kennedy-anthony": {
     "artist": null, 
@@ -930,6 +958,13 @@
     "license": null, 
     "source": "Alabama Court Website"
   }, 
+  "moore-terry": {
+    "artist": null, 
+    "date_created": null, 
+    "hash": "b10829b1e37a767101ff5dacc27dd0892823760b0521ae07a8020b496bbedcf4", 
+    "license": null, 
+    "source": "Alabama Court Website"
+  }, 
   "morris-james": {
     "artist": "Richard C. Henderson", 
     "date_created": "1980", 
@@ -1048,6 +1083,13 @@
     "hash": "c7d2d8ccc93b3fb9444f1521c534983cbc7046adef97e33a6a81851ae8351af0", 
     "license": "Work of Federal Government", 
     "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "pittman-craig": {
+    "artist": null, 
+    "date_created": null, 
+    "hash": "f08bc152a4031d8262e712d6a03390895d39f18a459f7f3f7c4fe5d201cf2f42", 
+    "license": null, 
+    "source": "Alabama Court Website"
   }, 
   "powell-lewis-jr": {
     "artist": "George Augusta", 
@@ -1322,12 +1364,26 @@
     "license": "Work of Federal Government", 
     "source": "Collection of the Supreme Court of the United States"
   }, 
+  "thomas-terri": {
+    "artist": null, 
+    "date_created": null, 
+    "hash": "576820a7b0f405c7f484e497c4c3fc7a29220533c9cb62f91a0b3278221cebc3", 
+    "license": null, 
+    "source": "Alabama Court Website"
+  }, 
   "thompson-smith": {
     "artist": "Ashur B. Durand", 
     "date_created": null, 
     "hash": "0c3d6757bf600e2015e50582dfb06a7ccbd12c0546a107ae06e91bf279afb077", 
     "license": "Work of Federal Government", 
     "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "thompson-william": {
+    "artist": null, 
+    "date_created": null, 
+    "hash": "de1c515971c2774e1585b349e0f1d72b88bbbc984603ee8117eec1ae2ad4c85c", 
+    "license": null, 
+    "source": "Alabama Court Website"
   }, 
   "thurston-buckner": {
     "artist": "TUFF", 
@@ -1406,6 +1462,13 @@
     "license": "Work of Federal Government", 
     "source": "Collection of the Supreme Court of the United States"
   }, 
+  "welch-samuel": {
+    "artist": null, 
+    "date_created": null, 
+    "hash": "9507cda0eb4cd26837eb69d6a3d0764603ace71de2df428ac1ffe1f69299e6a7", 
+    "license": null, 
+    "source": "Alabama Court Website"
+  }, 
   "wheat-alfred": {
     "artist": "Richard C. Henderson", 
     "date_created": null, 
@@ -1440,6 +1503,13 @@
     "hash": "636a8c975ba7cc8b2332e03d62654069541a92619bf47404f9000cc930f4a1ec", 
     "license": "Work of Federal Government", 
     "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "windom-mary": {
+    "artist": null, 
+    "date_created": null, 
+    "hash": "9aa83db4f62479b77f7283bd408b891063cb7db2ffb419ab0d39bf78778a2803", 
+    "license": null, 
+    "source": "Alabama Court Website"
   }, 
   "wise-alisa": {
     "artist": null, 
