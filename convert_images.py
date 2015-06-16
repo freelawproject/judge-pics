@@ -1,5 +1,6 @@
 import hashlib
 import json
+import multiprocessing
 import os
 import subprocess
 
@@ -34,10 +35,26 @@ def set_new_hash(judge_id, new_hash):
             "date_created": None,
         }
 
+def parallel_resize(args):
+    size = args['size']
+    image = args['image_path']
+    final_name = args['final_name']
+    print "  - Making {size}x{size} image...".format(size=size)
+    command = [
+        'convert',
+        '-resize',
+        '%sx%s' % (size, size),
+        '-background',
+        'transparent',
+        image,
+        '../%s/%s' % (size, final_name),
+    ]
+    subprocess.Popen(command, shell=False).communicate()
+
 
 def convert_images():
     force_check_hashes = False  # Toggle manually to re-run everything.
-    for image in os.listdir('.'):
+    for image in sorted(os.listdir('.')):
         print "\nProcessing: %s" % image
         judge_id = image.split('.')[0]
         final_name = '%s.jpeg' % judge_id
@@ -47,19 +64,27 @@ def convert_images():
             # Update the hash
             set_new_hash(judge_id, current_hash)
 
+            print "  - Stripping metadata from original image..."
+            command = [
+                'exiftool',
+                '-q',     # Quiet mode
+                '-all=',  # Make all tags = ''
+                '-overwrite_original',
+                image,
+            ]
+            subprocess.Popen(command, shell=False).communicate()
+
             # Regenerate the images
+            args = []
+            k = {}
             for size in ['128', '256', '512', '1024']:
-                print "  - Making {size}x{size} image...".format(size=size)
-                command = [
-                    'convert',
-                    '-resize',
-                    '%sx%s' % (size, size),
-                    '-background',
-                    'transparent',
-                    image,
-                    '../%s/%s' % (size, final_name),
-                ]
-                subprocess.Popen(command, shell=False).communicate()
+                k['size'] = size
+                k['image_path'] = image
+                k['final_name'] = final_name
+                args.append(k.copy())
+            pool = multiprocessing.Pool()
+            pool.map(parallel_resize, args)
+
         else:
             print ' - Unchanged hash, moving on.'
 

@@ -45,7 +45,7 @@ The process for this is pretty simple.
         
     
 1. Regenerate the converted versions by running `convert_images.py` (note that
-this requires `imagemagick`).
+this requires `imagemagick` and `exiftool`).
 
 1. Edit `judges.json` to include the relevant fields for your new file such as 
    the date of the portrait, source, artist, and license. (By default, the 
@@ -71,7 +71,9 @@ Quality Guidelines
 Installation
 ------------
 
-Basic usage doesn't require any installation, but if you wish to import the `judges.json` file into a Python program, you may want to install this as a Python module in your system. To do so:
+Basic usage doesn't require any installation, but if you wish to import the 
+`judges.json` file into a Python program, you may want to install this as a 
+Python module in your system. To do so:
 
     sudo git clone https://github.com/freelawproject/judge-pics /usr/local/judge_pics
     sudo ln -s /usr/local/judge_pics /usr/lib/python2.7/dist-packages/judge_pics
