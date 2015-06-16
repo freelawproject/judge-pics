@@ -36,8 +36,14 @@ def set_new_hash(judge_id, new_hash):
         }
 
 def parallel_resize(args):
+    """Resizes the images.
+
+    This is a function that can be called from pool.map() to run the resize
+    functions in parallel. Note that pool.map() can only take one argument, so
+    this receives a dict which it then unpacks.
+    """
     size = args['size']
-    image = args['image_path']
+    image = args['image']
     final_name = args['final_name']
     print "  - Making {size}x{size} image...".format(size=size)
     command = [
@@ -74,17 +80,15 @@ def convert_images():
             ]
             subprocess.Popen(command, shell=False).communicate()
 
-            # Regenerate the images
-            args = []
-            k = {}
-            for size in ['128', '256', '512', '1024']:
-                k['size'] = size
-                k['image_path'] = image
-                k['final_name'] = final_name
-                args.append(k.copy())
+            # Regenerate the images by sending a list of dicts to `map`
+            sizes = ['128', '256', '512', '1024']
+            args = [{
+                'image': image,
+                'final_name': final_name,
+                'size': size
+            }.copy() for size in sizes]
             pool = multiprocessing.Pool()
             pool.map(parallel_resize, args)
-
         else:
             print ' - Unchanged hash, moving on.'
 
