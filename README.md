@@ -29,10 +29,14 @@ The process for this is pretty simple.
 
         sotomayor-sonia.jpeg
     
-    Note that dates should be set [using ISO-8601 format][8601], the name is 
-    lowercase, and the extension is `jpeg`, not `jpg`. Any punctuation marks in 
-    a judge's name should be converted to a dash, according to [Django's slugify 
-    function][slugify]. 
+    Note that:
+    
+    - birth dates should be [set using ISO-8601 format][8601]
+    - suffixes such as jr or III should be included last
+    - the name is lowercase
+    - the extension is `jpeg`, not `jpg`. 
+    - any punctuation marks in a judge's name should be converted to a dash, 
+      according to [Django's slugify function][slugify]
     
     For example:
     
