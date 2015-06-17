@@ -81,7 +81,7 @@ def convert_images():
             subprocess.Popen(command, shell=False).communicate()
 
             # Regenerate the images by sending a list of dicts to `map`
-            sizes = ['128', '256', '512', '1024']
+            sizes = ['128', '256', '512']
             args = [{
                 'image': image,
                 'final_name': final_name,
