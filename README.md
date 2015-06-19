@@ -1,9 +1,9 @@
 Welcome to the Judge Pics Repository
 ====================================
 
-This is a collection of judicial profile pics that can be cloned and used in any project. Original files can be found in the `orig` directory and converted versions can be found in the numerical directories.
+This is a collection of judicial profile pics or portraits that can be cloned and used in any project. Original files can be found in the `orig` directory and converted versions can be found in the numerical directories.
 
-The goal of this project is to collect and maintain an updated repository of all important judges over the years.
+The goal of this project is to collect and maintain an updated repository of all important judges over the years. There are two types of pictures in this repository. The first are head shots or portraits of judges, and the second are group shots of the entire bench on a specific date.  
 
 
 Contributing
@@ -46,6 +46,21 @@ The process for this is pretty simple.
     after their name such as:
      
         sotomayor-sonia-2.jpeg
+        
+    We have also begun collecting group pictures. For these, the pattern is:
+    
+        group-$court-code-$date.jpeg
+    
+    Note that:
+    
+    - `$court` corresponds to the Juriscraper/CourtListener code for the court.
+      If you are unsure what code to use, you can [easily look it up on 
+      CourtListener][codes].
+    - The date should be the earliest date that a group of judges is known to 
+      work together. In many cases, you'll be unsure and will need to simply use
+      today's date. That's OK. Again, [dates should be in ISO-8601 
+      format][8601].
+    - Again, the extension is `jpeg`, not `jpg`, and certainly not `png`.
         
     
 1. Regenerate the converted versions by running `convert_images.py` (note that
@@ -115,3 +130,4 @@ License file for details. The license of individual images is described in
 [slugify]: https://docs.djangoproject.com/en/1.8/_modules/django/utils/text/#slugify
 [8601]: http://en.wikipedia.org/wiki/ISO_8601
 [contact]: http://freelawproject.org/contact/
+[codes]: https://www.courtlistener.com/api/jurisdictions/
