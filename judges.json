@@ -23,7 +23,7 @@
   "ashby-karen": {
     "artist": null, 
     "date_created": null, 
-    "hash": "01aa72f8e8bfe6c545b5d78533a7474448e6dc1c2c6841ac5fb7bb1fb3f8248d", 
+    "hash": "754b7430665f775ba186e85316bf5f35a6e195f1a1955eac7e156e076ce41c49", 
     "license": null, 
     "source": "Colorado Court Website"
   }, 
@@ -72,7 +72,7 @@
   "bernard-steve": {
     "artist": null, 
     "date_created": null, 
-    "hash": "2433bab6a888ce5a8561f3121381bc57b7df6eff141a53124256b16a1357a14f", 
+    "hash": "ccf16fb0a869ba7c090aeb2b8bfbc848475eb4440cfc5fde71b0164e93fc9817", 
     "license": null, 
     "source": "Colorado Court Website"
   }, 
@@ -114,7 +114,7 @@
   "boatright-brian": {
     "artist": null, 
     "date_created": null, 
-    "hash": "a222ae0a7bf2d619ebe82ad694c72233a4c31ceaea7e7249a14ddc8aa2d0b50c", 
+    "hash": "b531cb895f61a72a0009306a81387107cefae5e87d1ab7c30dd6386c6c95082d", 
     "license": null, 
     "source": "Colorado Court Website"
   }, 
@@ -128,7 +128,7 @@
   "booras-laurie": {
     "artist": null, 
     "date_created": null, 
-    "hash": "c4d7ac38f22cb0f944ca30a0f7b1ec5a64d0c82e078a6c55fb2419dd8cbf7a98", 
+    "hash": "77d3651f23cf7fce7ce16050d0f1260c8d85b7213a28ba28a49c3b914fbb9974", 
     "license": null, 
     "source": "Colorado Court Website"
   }, 
@@ -261,7 +261,7 @@
   "casebolt-james": {
     "artist": null, 
     "date_created": null, 
-    "hash": "b8b1fbb37f014a988fd194c7f5646ec210264de1cab3e8179165cd05d71fd4e8", 
+    "hash": "c8e5808d9ca509f43162101ccd726686fbf73bf33290cbe98fc4f00c6138e08a", 
     "license": null, 
     "source": "Colorado Court Website"
   }, 
@@ -317,7 +317,7 @@
   "coats-nathan": {
     "artist": null, 
     "date_created": null, 
-    "hash": "87b21c43c5e01fdb685c21538e49bc4198f730cc8309649951411cb6689d4d2a", 
+    "hash": "90a9172602d9e67c608f40200bde83dc01a8602e3ab2e1d81f1b6874eb16d002", 
     "license": null, 
     "source": "Colorado Court Website"
   }, 
@@ -380,7 +380,7 @@
   "dailey-josh": {
     "artist": null, 
     "date_created": null, 
-    "hash": "10e09ccb76c2515a4ce619d38f1ec18bc2b5798d4467249b784f40f2ec9bb916", 
+    "hash": "41a4711de4e19b7f4cabf11a71bd7b78a2eb3749737a7edf695f2207c495322c", 
     "license": null, 
     "source": "Colorado Court Website"
   }, 
@@ -457,7 +457,7 @@
   "eid-allison": {
     "artist": null, 
     "date_created": null, 
-    "hash": "05c30a81e0fa7ea1750720f68839f18087b7d092a26ea9b8845b230aed2aad4d", 
+    "hash": "ccacce87443c3f90b08a51574a9dcb73bcb267d776319899d96cdf3afbc13bca", 
     "license": null, 
     "source": "Colorado Court Website"
   }, 
@@ -506,7 +506,7 @@
   "fox-terry": {
     "artist": null, 
     "date_created": null, 
-    "hash": "bb5ef98ae68b74e6d2db4c87660fea156f8fca27bf92a5888a2016853df915a7", 
+    "hash": "4864f55a34ecdeef29a719e97f7fba146a0ebccf76a173a9c4017b09f2581fb3", 
     "license": null, 
     "source": "Colorado Court Website"
   }, 
@@ -516,6 +516,13 @@
     "hash": "58b7fe17e4306eb82a0d411af8e232fc568b15a1f0a0bcf4d3073b28b3977c90", 
     "license": "Work of Federal Government", 
     "source": "Collection of the Supreme Court of the United States"
+  }, 
+  "french-judith": {
+    "artist": null, 
+    "date_created": null, 
+    "hash": "5fc2a68d2d72ea783cd1e4800f12bd0702263f2a7656a1f483bf2f4aa7656204", 
+    "license": null, 
+    "source": "Ohio Court Website"
   }, 
   "friedman-paul": {
     "artist": "John R. Friedman", 
@@ -534,14 +541,14 @@
   "furman-david": {
     "artist": null, 
     "date_created": null, 
-    "hash": "02b6b133cd525eaef1c30ed8e34deaf71b3f8114bbfec0bbe15429f22eb4a2a2", 
+    "hash": "bd7dc0e74934f5f96f7d381bbe8fe9aff6ed0afcca4dfdd9bac82c5a54cd0835", 
     "license": null, 
     "source": "Colorado Court Website"
   }, 
   "gabriel-richard": {
     "artist": null, 
     "date_created": null, 
-    "hash": "b023f85055fdcd6fe55cb5252a0dae8eada395628a70fe5ae2b8f43ad47c53c0", 
+    "hash": "c5e2685907db7103939d632c87736337301afa63875a9188d2518e3737cbbf0b", 
     "license": null, 
     "source": "Colorado Court Website"
   }, 
@@ -597,7 +604,7 @@
   "graham-dennis": {
     "artist": null, 
     "date_created": null, 
-    "hash": "88ed5c57654b45618dd318a9706fc614c4529d49027179a336aa860a08b0cfff", 
+    "hash": "9adf85eb6f9a8cda3b079d918f295be392638f3dba10e97fe263544899d8ee74", 
     "license": null, 
     "source": "Colorado Court Website"
   }, 
@@ -674,7 +681,7 @@
   "hawthorne-robert": {
     "artist": null, 
     "date_created": null, 
-    "hash": "aebb915027dc5f1e2cd54a3ae8f90274477095407b87136b94a7a0b51aaf25ab", 
+    "hash": "b3d4403949c9203c5e71e331ae7fbbc09914146c403035becbb9280d1e56c7c5", 
     "license": null, 
     "source": "Colorado Court Website"
   }, 
@@ -688,7 +695,7 @@
   "hobbs-gregory": {
     "artist": null, 
     "date_created": null, 
-    "hash": "103bf7fbca33810099af71c46944e1ca06d183d8d94e5f78bfd8ee59322c4941", 
+    "hash": "2a90385784f038fdaf99e665d7fa974486213abfd0732bea1eb12b15dcd2b760", 
     "license": null, 
     "source": "Colorado Court Website"
   }, 
@@ -716,7 +723,7 @@
   "hood-william-iii": {
     "artist": null, 
     "date_created": null, 
-    "hash": "38622dd16160b258c3db5d018a6b842c18ec3ebc655ee5468bb695a0cc325538", 
+    "hash": "16e1213b127546803d4162be63312de4b26322d508bed30b92ddd96432086b70", 
     "license": null, 
     "source": "Colorado Court Website"
   }, 
@@ -821,7 +828,7 @@
   "jones-jerry": {
     "artist": null, 
     "date_created": null, 
-    "hash": "2fcb0385e3e4ec12932766ac494cf732741a61511c6f717fbe6d9b29571a4012", 
+    "hash": "3f858e82c8d93e0838cfbb254c1ae578cd073ada727a3bca014dc997c8e685e9", 
     "license": null, 
     "source": "Colorado Court Website"
   }, 
@@ -867,6 +874,13 @@
     "license": "Work of Federal Government", 
     "source": "Collection of the Supreme Court of the United States"
   }, 
+  "kennedy-sharon": {
+    "artist": null, 
+    "date_created": null, 
+    "hash": "cb1530b8e28b7bff9dded85c67489df4e858e1f003ced7ee851ebf1a7e58267b", 
+    "license": null, 
+    "source": "Ohio Court Website"
+  }, 
   "kirkland-james": {
     "artist": "Richard C. Henderson", 
     "date_created": "1978", 
@@ -888,6 +902,13 @@
     "license": "Work of Federal Government", 
     "source": "Collection of the Supreme Court of the United States"
   }, 
+  "lanzinger-judith": {
+    "artist": null, 
+    "date_created": null, 
+    "hash": "82c61721dc809777cb6a81297fd40e64ded4b4f4ecad9a82047b327379f64cf4", 
+    "license": null, 
+    "source": "Ohio Court Website"
+  }, 
   "laws-bolitha": {
     "artist": "Peter Evan Egeli", 
     "date_created": null, 
@@ -905,7 +926,7 @@
   "lichtenstein-nancy": {
     "artist": null, 
     "date_created": null, 
-    "hash": "8ef8c3f372936973065195c4e47f153a1b79ef747bda3b89e4ca5615c742adaa", 
+    "hash": "9ecf0266f29ea4fa4f505a7b4f1acdb464d0269459052cce94e84129907c13bc", 
     "license": null, 
     "source": "Colorado Court Website"
   }, 
@@ -919,7 +940,7 @@
   "loeb-alan": {
     "artist": null, 
     "date_created": null, 
-    "hash": "35778a0886721163c1425230495e30fdbcc67a9ff1dc9b9b285dbbc9f3fc2ebc", 
+    "hash": "d5d72c01eea87adc83a244103ddd19f535e635a6eefee891e6f64eec1dcd960f", 
     "license": null, 
     "source": "Colorado Court Website"
   }, 
@@ -954,7 +975,7 @@
   "marquez-mmonica": {
     "artist": null, 
     "date_created": null, 
-    "hash": "cfbfe297e375bd9616e4bce1f615f8c1663e49ea092e61c7076c47ad692b0ef7", 
+    "hash": "9171a24eb7ccfd2b089b5747abdb84ed44fc9a1bb3bf3d86e74ff12176b0d1ec", 
     "license": null, 
     "source": "Colorado Court Website"
   }, 
@@ -1059,7 +1080,7 @@
   "miller-gale": {
     "artist": null, 
     "date_created": null, 
-    "hash": "0171b34368101b99572a90a994bbf9ea97f3e24cc37a8ec3ed3c07bbb1f04c91", 
+    "hash": "cc13491a7fe680731618183019b1fb90a1dc90ae454db332aa2ead3fbd92d4cc", 
     "license": null, 
     "source": "Colorado Court Website"
   }, 
@@ -1136,7 +1157,7 @@
   "navarro-anthony": {
     "artist": null, 
     "date_created": null, 
-    "hash": "6579b87486b5274d1d8938a6d3124b42b8a0e5edfb9e40a0f71d75d9826af9c4", 
+    "hash": "6fbee1adc349d26a91b76cb9fd800525272f3132e8eac5bbffb9890f586b1fd8", 
     "license": null, 
     "source": "Colorado Court Website"
   }, 
@@ -1147,6 +1168,13 @@
     "license": "Work of Federal Government", 
     "source": "Collection of the Supreme Court of the United States"
   }, 
+  "o-connor-maureen": {
+    "artist": null, 
+    "date_created": null, 
+    "hash": "0bdeb92a021882a9bfe8178f2487c981873f87ff9c2324812321d4304de5c905", 
+    "license": null, 
+    "source": "Ohio Court Website"
+  }, 
   "o-connor-sandra": {
     "artist": "Danni Dawson", 
     "date_created": "1999", 
@@ -1154,12 +1182,26 @@
     "license": "Work of Federal Government", 
     "source": "Collection of the Supreme Court of the United States"
   }, 
+  "o-donnell-terrence": {
+    "artist": null, 
+    "date_created": null, 
+    "hash": "efe39c6cf523ec33a147ce1586c110d8682c49c4a3e744cb21ca906a45a05e44", 
+    "license": null, 
+    "source": "Ohio Court Website"
+  }, 
   "o-donoghue-daniel": {
     "artist": "S. Horing", 
     "date_created": null, 
     "hash": "c5614f57c5f4af97c3298fad7200109d9f54333b5c5302f02b352f620406e51d", 
     "license": "Work of Federal Government", 
     "source": "Historical Society of the District of Columbia Circuit"
+  }, 
+  "o-neill-william": {
+    "artist": null, 
+    "date_created": null, 
+    "hash": "e98af0070de59b39c379a28f78928c6ae4ea0cfc6980d5252847059f1c036aa3", 
+    "license": null, 
+    "source": "Ohio Court Website"
   }, 
   "oberdorfer-louis": {
     "artist": "Donald Stivers", 
@@ -1216,6 +1258,13 @@
     "hash": "c1828e351d95d0875f3d147273eea61d1f0e1e7a5af4a7446d4002c260bd1b60", 
     "license": "Work of Federal Government", 
     "source": "Historical Society of the District of Columbia Circuit"
+  }, 
+  "pfeifer-paul": {
+    "artist": null, 
+    "date_created": null, 
+    "hash": "e419b26600623cd5fd1ca6151aac03e23c781c84cdad838e3708a1d75ec8a748", 
+    "license": null, 
+    "source": "Ohio Court Website"
   }, 
   "pine-david": {
     "artist": "Chase Studios", 
@@ -1283,7 +1332,7 @@
   "rice-nancy": {
     "artist": null, 
     "date_created": null, 
-    "hash": "6244312efea97fcc43bff40a3511ed90195a00330879e28f1a5bd5aa660563ce", 
+    "hash": "541b9e5912d9cbb91bac78a92cf6d81f70d98391d56fd514f8cb5de3c5b86cdf", 
     "license": null, 
     "source": "Colorado Court Website"
   }, 
@@ -1297,7 +1346,7 @@
   "richman-david": {
     "artist": null, 
     "date_created": null, 
-    "hash": "11cdb033dc8a6315d5c7d767859db6ac11d552409bf5bd83ec4524ffdc2b251c", 
+    "hash": "1824456b417bb51eeb74d91de4eebc696386c09d961f1494c251e3a0beb09391", 
     "license": null, 
     "source": "Colorado Court Website"
   }, 
@@ -1346,7 +1395,7 @@
   "roman-gilbert": {
     "artist": null, 
     "date_created": null, 
-    "hash": "eb9ecc1be268896243f6dae6b62c9d9afd0172c9b6d815d98ecd2d70c4f1d299", 
+    "hash": "7c0216747641a3489bfe8c927ddbeb85d1cf2f2aec7601de1d34cd23c106f402", 
     "license": null, 
     "source": "Colorado Court Website"
   }, 
@@ -1521,14 +1570,14 @@
   "taubman-daniel": {
     "artist": null, 
     "date_created": null, 
-    "hash": "28f72701ba10e9cb9961d0a62aa0dabe5b87c24b963f8a93b64801b1454bd3cb", 
+    "hash": "c342fdf051feebbf120e1dfb9256021829a0d35480667bc06ccc842ffdfe5608", 
     "license": null, 
     "source": "Colorado Court Website"
   }, 
   "terry-diana": {
     "artist": null, 
     "date_created": null, 
-    "hash": "cb4bace7195b8b8c7d0f560be6cbcb37d08bb169c3d4b0e71f2d61590e3a5558", 
+    "hash": "fd03f3a6f06712d403b3733163c5c7153ab3e23ca98f32fb06e4f2e953bb6a07", 
     "license": null, 
     "source": "Colorado Court Website"
   }, 
@@ -1647,7 +1696,7 @@
   "webb-john": {
     "artist": null, 
     "date_created": null, 
-    "hash": "a2cad13d464e4a104fc2cc5115684f9a5697784c9bc936bbb7000644d9357812", 
+    "hash": "fdf0fced952855a8cdc873dabc42fbe342b1ec4e54d16056b4993c58c3078ca7", 
     "license": null, 
     "source": "Colorado Court Website"
   }, 
