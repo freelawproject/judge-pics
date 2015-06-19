@@ -67,9 +67,6 @@ def convert_images():
         current_hash = get_hash_from_file(image)
         old_hash = get_old_hash(image)
         if current_hash != old_hash or force_check_hashes:
-            # Update the hash
-            set_new_hash(judge_id, current_hash)
-
             print "  - Stripping metadata from original image..."
             command = [
                 'exiftool',
@@ -79,6 +76,9 @@ def convert_images():
                 image,
             ]
             subprocess.Popen(command, shell=False).communicate()
+
+            # Update the hash with the stripped version.
+            set_new_hash(judge_id, get_hash_from_file(image))
 
             # Regenerate the images by sending a list of dicts to `map`
             sizes = ['128', '256', '512']
