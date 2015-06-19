@@ -87,6 +87,17 @@ You can then import the `judges.json` information into your project using:
     from judge_pics import judge_pics
 
 
+A Note to Judges
+----------------
+If you're a judge looking at this, and you want your picture to be included too,
+you can contribute it yourself using the guidelines in this readme. 
+
+Alternatively, if you prefer, you can [send us an email using the contact form 
+on the Free Law Project website][contact], and we'll be happy to do it for you.
+
+Either way, we'd be elated to hear from you.
+
+
 Copyright
 ---------
 
@@ -103,3 +114,4 @@ License file for details. The license of individual images is described in
 [add]: https://github.com/freelawproject/judge-pics/blob/master/additional-sources.md
 [slugify]: https://docs.djangoproject.com/en/1.8/_modules/django/utils/text/#slugify
 [8601]: http://en.wikipedia.org/wiki/ISO_8601
+[contact]: http://freelawproject.org/contact/
