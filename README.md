@@ -1,4 +1,3 @@
-[![Slack Status](https://join-flp-talk.herokuapp.com/badge.svg)](https://join-flp-talk.herokuapp.com/)
 
 Welcome to the Judge Pics Repository
 ====================================
