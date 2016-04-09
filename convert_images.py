@@ -35,6 +35,7 @@ def set_new_hash(judge_id, new_hash):
             "date_created": None,
         }
 
+
 def parallel_resize(args):
     """Resizes the images.
 
@@ -60,6 +61,7 @@ def parallel_resize(args):
 
 def convert_images():
     force_check_hashes = False  # Toggle manually to re-run everything.
+    pool = multiprocessing.Pool()
     for image in sorted(os.listdir('.')):
         print "\nProcessing: %s" % image
         judge_id = image.split('.')[0]
@@ -87,7 +89,6 @@ def convert_images():
                 'final_name': final_name,
                 'size': size
             }.copy() for size in sizes]
-            pool = multiprocessing.Pool()
             pool.map(parallel_resize, args)
         else:
             print ' - Unchanged hash, moving on.'
