@@ -60,7 +60,7 @@ def parallel_resize(args):
 
 
 def convert_images():
-    force_check_hashes = False  # Toggle manually to re-run everything.
+    force_check_hashes = True  # Toggle manually to re-run everything.
     pool = multiprocessing.Pool()
     for image in sorted(os.listdir('.')):
         print "\nProcessing: %s" % image
