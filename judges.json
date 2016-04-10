@@ -6,7 +6,7 @@
     "license": "Work of Federal Government",
     "source": "Historical Society of the District of Columbia Circuit"
   },
-  "alito-samuel-jr": {
+  "alito-samuel": {
     "artist": null,
     "date_created": null,
     "hash": "cc53df59240241053babaf38e3a67638d16df037293e59d82b4f6033ee465805",
@@ -26,13 +26,6 @@
     "hash": "754b7430665f775ba186e85316bf5f35a6e195f1a1955eac7e156e076ce41c49",
     "license": null,
     "source": "Colorado Court Website"
-  },
-  "bader-ginsburg-ruth": {
-    "artist": null,
-    "date_created": null,
-    "hash": "8251e14b79691f687eae31440c39213f723ba8bb9a5ba79bb71105374771c0ce",
-    "license": "Work of Federal Government",
-    "source": "Collection of the Supreme Court of the United States"
   },
   "bailey-thomas": {
     "artist": "Richard C. Henderson",
@@ -153,14 +146,14 @@
     "license": "Work of Federal Government",
     "source": "Collection of the Supreme Court of the United States"
   },
-  "brennan-william-jr": {
+  "brennan-william": {
     "artist": "Paul C. Burns",
     "date_created": null,
     "hash": "47400a65524fc547978db7fbcbbfb4b088189982ed7baf58495253d18cc3813b",
     "license": "Work of Federal Government",
     "source": "Collection of the Supreme Court of the United States"
   },
-  "brewer-david": {
+  "brewer-david-1837-06-20": {
     "artist": "Robert Lea MacCameron",
     "date_created": null,
     "hash": "ddde55eb075d5cf0b539b79ce69b2114aaced58b5e2ada044211dfa6e46ea8c5",
@@ -181,7 +174,7 @@
     "license": "Work of Federal Government",
     "source": "Collection of the Supreme Court of the United States"
   },
-  "brown-henry": {
+  "brown-henry-1836-03-02": {
     "artist": "Lewis Thomas Ives",
     "date_created": null,
     "hash": "5c2e61f15456c1b62a09bbd16ca2a57b3c87b0dde5e54bc5a912ad0f061cae97",
@@ -244,7 +237,7 @@
     "license": "Work of Federal Government",
     "source": "Collection of the Supreme Court of the United States"
   },
-  "cardozo-benjamin": {
+  "cardozo-benjamin-1870-05-24": {
     "artist": "Eben F. Comins",
     "date_created": null,
     "hash": "ed0ed141f67d89bb9e0782f6fa71393a67f3bf2a1e091408999f7ccd3e45a41f",
@@ -328,14 +321,14 @@
     "license": "Work of Federal Government",
     "source": "Historical Society of the District of Columbia Circuit"
   },
-  "covington-harry": {
+  "covington-james": {
     "artist": null,
     "date_created": null,
     "hash": "684829baa8964dc251e285d395aac96ee1e373433e2436de5e106e8e178cecb7",
     "license": "Work of Federal Government",
     "source": "Historical Society of the District of Columbia Circuit"
   },
-  "cox-joseph": {
+  "cox-joseph-1875-10-19": {
     "artist": "G. Grisohn",
     "date_created": null,
     "hash": "fc840f6d7ff13ea771f5e27ff4ba3c9a9a983d40ebc06e3219256bc6344badb9",
@@ -395,13 +388,6 @@
     "artist": "John M. Isaacs",
     "date_created": null,
     "hash": "4d4edd5138fa64182b0324c683dd5e2ee3947283a34bd1986de23c4f63b0da72",
-    "license": "Work of Federal Government",
-    "source": "Collection of the Supreme Court of the United States"
-  },
-  "day-oconnor-sandra": {
-    "artist": null,
-    "date_created": null,
-    "hash": "cde8781ce23825feadbf118727138b9f8cd3c7a0d2f93478ea7ed08af60dffe7",
     "license": "Work of Federal Government",
     "source": "Collection of the Supreme Court of the United States"
   },
@@ -481,13 +467,6 @@
     "hash": "c3f106f8dd2e7924970deaebfd209277decf68e819d985ca2fae1cd21b748135",
     "license": "Work of Federal Government",
     "source": "Historical Society of the District of Columbia Circuit"
-  },
-  "fiske-stone-harlan": {
-    "artist": "Signed C.J. Fox (painted by others)",
-    "date_created": null,
-    "hash": "41681f0854e2571db80c829b49e69cc926806b6ffd0678e1452df238c951e4cf",
-    "license": "Work of Federal Government",
-    "source": "Collection of the Supreme Court of the United States"
   },
   "flannery-thomas": {
     "artist": "Donald Stivers",
@@ -573,6 +552,13 @@
     "license": "Work of Federal Government",
     "source": "Collection of the Supreme Court of the United States"
   },
+  "ginsburg-ruth-2": {
+    "artist": null,
+    "date_created": null,
+    "hash": "8251e14b79691f687eae31440c39213f723ba8bb9a5ba79bb71105374771c0ce",
+    "license": "Work of Federal Government",
+    "source": "Collection of the Supreme Court of the United States"
+  },
   "goldberg-arthur": {
     "artist": "Lucien Le Breton",
     "date_created": null,
@@ -629,7 +615,7 @@
     "license": "Work of Federal Government",
     "source": "Historical Society of the District of Columbia Circuit"
   },
-  "greene-harold": {
+  "greene-harold-1923-02-06": {
     "artist": "Donald Stivers",
     "date_created": null,
     "hash": "508834496272a21dee9d3fd88ac98dec85620f84277ef26b233c594c049d35e7",
@@ -678,7 +664,7 @@
     "license": "Work of Federal Government",
     "source": "Historical Society of the District of Columbia Circuit"
   },
-  "hart-george-jr": {
+  "hart-george": {
     "artist": "Donald Stivers",
     "date_created": null,
     "hash": "70dfcab35e63928796efb46fd1aea3e72ade8b09c5704b1ad2584f295ba5d7f9",
@@ -706,14 +692,14 @@
     "license": null,
     "source": "Colorado Court Website"
   },
-  "hoehling-adolph-jr": {
+  "hoehling-adolph": {
     "artist": null,
     "date_created": null,
     "hash": "e7525d0a17d686f17ab5a3ddf622f25c95af3c371a492457da573b9a74bc694c",
     "license": "Work of Federal Government",
     "source": "Historical Society of the District of Columbia Circuit"
   },
-  "holmes-oliver-jr": {
+  "holmes-oliver": {
     "artist": "Charles Sydney Hopkinson",
     "date_created": null,
     "hash": "d7c5f66342b20ba911a8216b44f882f7543ce98ce8c1a5c29fcf0b7267469bd6",
@@ -727,7 +713,7 @@
     "license": "Work of Federal Government",
     "source": "Historical Society of the District of Columbia Circuit"
   },
-  "hood-william-iii": {
+  "hood-william": {
     "artist": null,
     "date_created": null,
     "hash": "16e1213b127546803d4162be63312de4b26322d508bed30b92ddd96432086b70",
@@ -839,7 +825,7 @@
     "license": null,
     "source": "Colorado Court Website"
   },
-  "jones-willliam": {
+  "jones-william-1907-03-20": {
     "artist": "Lloyd Bowers Embry",
     "date_created": null,
     "hash": "6b84010becf94d76b553b5d739d783e3e48d523f51775023930bd8cf125a2288",
@@ -909,7 +895,7 @@
     "license": "Work of Federal Government",
     "source": "Collection of the Supreme Court of the United States"
   },
-  "lanzinger-judith": {
+  "lanzinger-judith-1946": {
     "artist": null,
     "date_created": null,
     "hash": "048beb3256bba0f173859c3c63a89bd1cc355bf3bf0aa85392c1727205eb7268",
@@ -937,7 +923,7 @@
     "license": null,
     "source": "Colorado Court Website"
   },
-  "livingston-brockholst": {
+  "livingston-henry": {
     "artist": "Casimir Gregory Stapko (after Gilbert Stuart)",
     "date_created": null,
     "hash": "a39985b71d64439b8cabe24598af2bb19ba2cececd4d501483cd908c1a6250b1",
@@ -979,7 +965,7 @@
     "license": null,
     "source": "Alabama Court Website"
   },
-  "marquez-mmonica": {
+  "marquez-monica": {
     "artist": null,
     "date_created": null,
     "hash": "9171a24eb7ccfd2b089b5747abdb84ed44fc9a1bb3bf3d86e74ff12176b0d1ec",
@@ -1133,7 +1119,7 @@
     "license": null,
     "source": "Alabama Court Website"
   },
-  "morris-james": {
+  "morris-james-1890-11-14": {
     "artist": "Richard C. Henderson",
     "date_created": "1980",
     "hash": "436a0ca1c17994752fc89324a332c8b7cb2dffae2af33c405a694cba0533557c",
@@ -1175,45 +1161,38 @@
     "license": "Work of Federal Government",
     "source": "Collection of the Supreme Court of the United States"
   },
-  "o-connor-maureen": {
+  "oberdorfer-louis": {
+    "artist": "Donald Stivers",
+    "date_created": null,
+    "hash": "8e3313edfd26e8c6d61cd14991426d9f499bce4336e23b8f5d38f21c7a76f7ea",
+    "license": "Work of Federal Government",
+    "source": "Historical Society of the District of Columbia Circuit"
+  },
+  "oconnor-maureen": {
     "artist": null,
     "date_created": null,
     "hash": "d7982cb761ab94c2beb73df2679a7f8fddb6f24ad18b47af649285b548d4c763",
     "license": null,
     "source": "Ohio Court Website"
   },
-  "o-connor-sandra": {
+  "oconnor-sandra-1930-03-26": {
     "artist": "Danni Dawson",
     "date_created": "1999",
-    "hash": "e194e0d7734e11e4505be6d4d6be35e1787ef8649a9968ebc3c3f95557ba2315",
+    "hash": "cde8781ce23825feadbf118727138b9f8cd3c7a0d2f93478ea7ed08af60dffe7",
     "license": "Work of Federal Government",
     "source": "Collection of the Supreme Court of the United States"
   },
-  "o-donnell-terrence": {
+  "odonnell-terrence": {
     "artist": null,
     "date_created": null,
     "hash": "b8dd7d019b12c69d15822c2638009cc09780706c7a5b865a4dbe5303a04fc389",
     "license": null,
     "source": "Ohio Court Website"
   },
-  "o-donoghue-daniel": {
+  "odonoghue-daniel": {
     "artist": "S. Horing",
     "date_created": null,
     "hash": "c5614f57c5f4af97c3298fad7200109d9f54333b5c5302f02b352f620406e51d",
-    "license": "Work of Federal Government",
-    "source": "Historical Society of the District of Columbia Circuit"
-  },
-  "o-neill-william": {
-    "artist": null,
-    "date_created": null,
-    "hash": "81e11c5739cfe7cee704f40fa208bcecff1c309f8448b66775e83eed91cc6a54",
-    "license": null,
-    "source": "Ohio Court Website"
-  },
-  "oberdorfer-louis": {
-    "artist": "Donald Stivers",
-    "date_created": null,
-    "hash": "8e3313edfd26e8c6d61cd14991426d9f499bce4336e23b8f5d38f21c7a76f7ea",
     "license": "Work of Federal Government",
     "source": "Historical Society of the District of Columbia Circuit"
   },
@@ -1223,6 +1202,13 @@
     "hash": "4f54f69f9ddd81a6b38a4ad8a957be4381b408bfa53d01337d09a3cd0ab44de9",
     "license": "Work of Federal Government",
     "source": "Historical Society of the District of Columbia Circuit"
+  },
+  "oneill-william": {
+    "artist": null,
+    "date_created": null,
+    "hash": "81e11c5739cfe7cee704f40fa208bcecff1c309f8448b66775e83eed91cc6a54",
+    "license": null,
+    "source": "Ohio Court Website"
   },
   "parker-barrington-1915-11-17": {
     "artist": "Donald Stivers",
@@ -1245,13 +1231,6 @@
     "license": "Work of Federal Government",
     "source": "Collection of the Supreme Court of the United States"
   },
-  "paul-stevens-john": {
-    "artist": null,
-    "date_created": null,
-    "hash": "0795cf06fc34d40f908b7b92489148c6c540f348ea6bb505478fbd41c7c2cbe3",
-    "license": "Work of Federal Government",
-    "source": "Collection of the Supreme Court of the United States"
-  },
   "peckham-rufus": {
     "artist": "C. Gregory Stapko",
     "date_created": null,
@@ -1259,7 +1238,7 @@
     "license": "Work of Federal Government",
     "source": "Collection of the Supreme Court of the United States"
   },
-  "penn-john": {
+  "penn-john-1932-03-19": {
     "artist": "Simmie Knox",
     "date_created": null,
     "hash": "c1828e351d95d0875f3d147273eea61d1f0e1e7a5af4a7446d4002c260bd1b60",
@@ -1294,7 +1273,7 @@
     "license": null,
     "source": "Alabama Court Website"
   },
-  "powell-lewis-jr": {
+  "powell-lewis": {
     "artist": "George Augusta",
     "date_created": null,
     "hash": "7f4000ac276bdc70ebb43350598b2eab523f728fd9dc6e2fe8039a432d628697",
@@ -1329,7 +1308,7 @@
     "license": "Work of Federal Government",
     "source": "Collection of the Supreme Court of the United States"
   },
-  "revercomb-george": {
+  "revercomb-george-1929-06-03": {
     "artist": "James Boice Hevener",
     "date_created": null,
     "hash": "510ce62d9217f22010123299acf9dcb0545747ddf823521c12a84e468b9a6fa7",
@@ -1362,7 +1341,7 @@
     "date_created": null,
     "hash": "83840c26504a31e7b1f5d5b30eaf19c0edb35ff688e59d12431fa13a61fb5947",
     "license": "Work of Federal Government",
-    "source": null
+    "source": "Collection of the Supreme Court of the United States"
   },
   "roberts-owen": {
     "artist": "Alfred Jonniaux",
@@ -1371,21 +1350,21 @@
     "license": "Work of Federal Government",
     "source": "Collection of the Supreme Court of the United States"
   },
-  "robertson-james": {
+  "robertson-james-1938": {
     "artist": "Annette Polan",
     "date_created": null,
     "hash": "727f6313254c7b3f646c908e834c36a822b0d7753d8c5a9931fb0d07b13ec170",
     "license": "Work of Federal Government",
     "source": "Historical Society of the District of Columbia Circuit"
   },
-  "robinson-aubrey-jr": {
-    "artist": "Simmie Knox",
+  "robinson-aubrey": {
+    "artistjames robertson": "Simmie Knox",
     "date_created": null,
     "hash": "99a6679ededfe07538a4a0814cdd14ce3d791288fc0f1179f915b69e75be930a",
     "license": "Work of Federal Government",
     "source": "Historical Society of the District of Columbia Circuit"
   },
-  "robinson-spottswood-iii": {
+  "robinson-spottswood": {
     "artist": "Richard C. Henderson",
     "date_created": null,
     "hash": "7bc55aadf33ab788bbd54a33265de16fa1f70eb1264e6b8a6c5ee7e9c80f8786",
@@ -1434,14 +1413,14 @@
     "license": "Work of Federal Government",
     "source": "Historical Society of the District of Columbia Circuit"
   },
-  "shaw-greg": {
+  "shaw-greg-1957": {
     "artist": null,
     "date_created": null,
     "hash": "f72bc8de908495a072cdb349573e6078f6a173384a6a4d6f6e5dfceb19604107",
     "license": null,
     "source": "Alabama Court Website"
   },
-  "shiras-george-jr": {
+  "shiras-george": {
     "artist": "A. L. Dohlberg",
     "date_created": null,
     "hash": "f5b2acb80188a9520ecf55251a92c8a4ceeaf7b70bd589273531196b327190ee",
@@ -1462,7 +1441,7 @@
     "license": "Work of Federal Government",
     "source": "Historical Society of the District of Columbia Circuit"
   },
-  "smith-john-jr": {
+  "smith-john-1912-09-20": {
     "artist": "Marcella Comes",
     "date_created": null,
     "hash": "d52e9c0e1d26e1df8e0b31cfc32d31e017770ffa6da7d431a2142652edc24166",
@@ -1476,7 +1455,7 @@
     "license": "Work of Federal Government",
     "source": "Collection of the Supreme Court of the United States"
   },
-  "souter-david": {
+  "souter-david-1939-09-17": {
     "artist": "Pete Souza",
     "date_created": null,
     "hash": "ef0b6d5e71d55d37528d0a421a02fed0bb8617ae9d71568f2bb6dd16e3dca801",
@@ -1498,16 +1477,23 @@
     "source": "Historical Society of the District of Columbia Circuit"
   },
   "stevens-john": {
-    "artist": "James Ingwersen",
-    "date_created": "1991",
-    "hash": "09118e4c6acd621aca34fbaa59132f78f1385db30a3f0ac9c02556dbeeb3007f",
-    "license": null,
+    "artist": null,
+    "date_created": null,
+    "hash": "0795cf06fc34d40f908b7b92489148c6c540f348ea6bb505478fbd41c7c2cbe3",
+    "license": "Work of Federal Government",
     "source": "Collection of the Supreme Court of the United States"
   },
   "stewart-potter": {
     "artist": "Ruth A. Nestor Hamilton",
     "date_created": null,
     "hash": "e8228a1e2bf35e2b2372d7cf5e930fd3db2fc6a222acb31c7f3fe954892ad45b",
+    "license": "Work of Federal Government",
+    "source": "Collection of the Supreme Court of the United States"
+  },
+  "stone-harlan": {
+    "artist": "Signed C.J. Fox (painted by others)",
+    "date_created": null,
+    "hash": "41681f0854e2571db80c829b49e69cc926806b6ffd0678e1452df238c951e4cf",
     "license": "Work of Federal Government",
     "source": "Collection of the Supreme Court of the United States"
   },
@@ -1546,7 +1532,7 @@
     "license": "Work of Federal Government",
     "source": "Collection of the Supreme Court of the United States"
   },
-  "taft-william-howard": {
+  "taft-william": {
     "artist": "Ernest Ludwig Ipsen",
     "date_created": null,
     "hash": "bead8fa5984bfd4a8bc25f60cbbe4315e08c12f8bfb689b4fec4126f6058a176",
@@ -1602,7 +1588,7 @@
     "license": "Work of Federal Government",
     "source": "Collection of the Supreme Court of the United States"
   },
-  "thompson-william": {
+  "thompson-william-1962-01": {
     "artist": null,
     "date_created": null,
     "hash": "de1c515971c2774e1585b349e0f1d72b88bbbc984603ee8117eec1ae2ad4c85c",
@@ -1637,7 +1623,7 @@
     "license": "Work of Federal Government",
     "source": "Collection of the Supreme Court of the United States"
   },
-  "vinson-fred": {
+  "vinson-frederick": {
     "artist": "William Franklin Draper",
     "date_created": null,
     "hash": "b48b9f4bee2ad5a5f53ced808907bb4c2a4be50769ea7ce1132990cc9d046af2",
@@ -1686,7 +1672,7 @@
     "license": "Work of Federal Government",
     "source": "Collection of the Supreme Court of the United States"
   },
-  "webb-john": {
+  "webb-john-unknown": {
     "artist": null,
     "date_created": null,
     "hash": "fdf0fced952855a8cdc873dabc42fbe342b1ec4e54d16056b4993c58c3078ca7",
@@ -1742,7 +1728,7 @@
     "license": null,
     "source": "Alabama Court Website"
   },
-  "wise-alisa": {
+  "wise-alisa-1962": {
     "artist": null,
     "date_created": null,
     "hash": "ba4c271896a9070de7eea302e05d08aa7a48f62c5c47eabc06c172152d70640d",

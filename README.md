@@ -32,7 +32,9 @@ The process for this is pretty simple.
 
     Noting that:
 
-    - birth dates should be [set using ISO-8601 format][8601]
+    - birth dates should be [set using ISO-8601 format][8601] and should be
+      provided at the highest possible granularity. I.e., if only the year
+      is known, then only the year should be provided.
     - the name is lowercase
     - the extension is `jpeg`, not `jpg`.
     - any punctuation marks in a judge's name should be converted to a dash,
