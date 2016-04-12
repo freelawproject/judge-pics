@@ -25,27 +25,27 @@ The process for this is pretty simple.
 
         $last-$first-$dob.jpeg
 
-    Where $dob is only necessary in the case of duplicates. So, for example
-    Sonia Sotomayor would be:
+    Where $dob should be completed to the highest possible granularity. So, for
+    example Antonin Scalia, a well-known judge would be:
 
-        sotomayor-sonia.jpeg
+        scalia-antonin-1936-03-11.jpeg
 
     Noting that:
 
     - birth dates should be [set using ISO-8601 format][8601] and should be
       provided at the highest possible granularity. I.e., if only the year
       is known, then only the year should be provided.
-    - the name is lowercase
+    - the name is lowercase.
     - the extension is `jpeg`, not `jpg`.
-    - any punctuation marks in a judge's name should be converted to a dash,
-      according to [Django's slugify function][slugify]
+    - any punctuation marks in a judge's name should be elided or converted to
+      a dash, according to [Django's slugify function][slugify].
 
     For example:
 
-        o-connor-sandra.jpeg
+        oconnor-sandra-1930-03-26.jpeg
 
-    Some judges may have multiple great portraits. For those, place a number
-    after their name such as:
+    Some judges may have multiple great portraits. For those, omit the date of
+    birth and place a number after their name such as:
 
         sotomayor-sonia-2.jpeg
 
