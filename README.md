@@ -2,7 +2,7 @@
 Welcome to the Judge Pics Repository
 ====================================
 
-This is a collection of judicial profile pics or portraits that can be cloned and used in any project. Original files can be found in the `orig` directory and converted versions can be found in the numerical directories.
+This is a collection of judicial profile pics or portraits that can be used in any project. Original files can be found in the `orig` directory and converted versions can be found in the numerical directories.
 
 The goal of this project is to collect and maintain an updated repository of all important judges over the years. There are two types of pictures in this repository. The first are head shots or portraits of judges, and the second are group shots of the entire bench on a specific date.
 
@@ -10,11 +10,11 @@ The goal of this project is to collect and maintain an updated repository of all
 Contributing
 ------------
 
-This project is blissfully easy to contribute to and we need lots of help
-gathering files. You can see untapped sources for images in the
-[additional-sources.md][add] file.
+This project is blissfully easy to contribute to and we need lots of help gathering files. You can see untapped sources for images in the [additional-sources.md][add] file.
 
-The process for this is pretty simple.
+The process for this is pretty simple, but if you need help or just want to email us photos, that works too. Just get in touch via [our contact page][contact].
+
+The normal process is:
 
 1. Find an image and ensure it follows our quality guidelines
 (below).
@@ -131,5 +131,5 @@ License file for details. The license of individual images is described in
 [add]: https://github.com/freelawproject/judge-pics/blob/master/additional-sources.md
 [slugify]: https://docs.djangoproject.com/en/1.8/_modules/django/utils/text/#slugify
 [8601]: http://en.wikipedia.org/wiki/ISO_8601
-[contact]: http://freelawproject.org/contact/
+[contact]: http://free.law/contact/
 [codes]: https://www.courtlistener.com/api/jurisdictions/
