@@ -9,7 +9,12 @@ import shutil
 with open('../judges.json', 'r') as j:
     j = json.load(j)
 
-headers = {'Authorization': 'Token 646842afee56ccc578b9c91e2ba07af369638561'}
+token = ''
+if token:
+    headers = {'Authorization': 'Token %s' % token}
+else:
+    print "Warning: No CourtListener token used. You'll run out of free queries to the API quickly."
+    headers = {}
 
 def granular_date(d, granularity):
     if not d:
