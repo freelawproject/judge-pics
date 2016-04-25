@@ -1636,6 +1636,13 @@
     "hash": "8c8ce413159350cf6e6321005c548f97d4ac6d77a278093c1919a16e423d41c6", 
     "license": "Work of Federal Government", 
     "source": "Historical Society of the District of Columbia Circuit"
+  },
+  "stearns-richard-1944": {
+    "artist": "John A. Hawkinson",
+    "date_created": "2013-10-15",
+    "hash": "e177d822fbd69e4567b736d616f9e7096f4b5b10f5987df292a0e5f2fa102ace",
+    "license": "Public domain",
+    "source": "John A. Hawkinson <jhawk@mit.edu>"
   }, 
   "stevens-john-1920": {
     "artist": null, 
