@@ -7,10 +7,10 @@ This is a collection of judicial profile pics or portraits that can be used in a
 The goal of this project is to collect and maintain an updated repository of all important judges over the years. There are two types of pictures in this repository. The first are head shots or portraits of judges, and the second are group shots of the entire bench on a specific date.
 
 
-Contributing
-------------
+Contributing as a Developer
+---------------------------
 
-This project is blissfully easy to contribute to and we need lots of help gathering files. You can see untapped sources for images in the [additional-sources.md][add] file.
+This project is fairly easy to contribute to and we need lots of help gathering files. You can see untapped sources for images in the [additional-sources.md][add] file.
 
 The process for this is pretty simple, but if you need help or just want to email us photos, that works too. Just get in touch via [our contact page][contact].
 
@@ -79,14 +79,11 @@ That's it!
 Quality Guidelines
 ------------------
 
+1. Images should be a head and shoulders shot of the judge.
 1. Images must be `jpeg` file format.
 1. Pictures of painted portraits are often skewed and often show the wall where
    the portrait is hung. Before submitting, de-skew the image and crop out
    any bits of wall that you can see around the edges.
-1. Images must be in the public domain or you must dedicate them there, if you
-   took the image yourself. Works of the Federal Government are in the public
-   domain, so generally portraits of Federal judges can be included in this
-   collection.
 
 
 Installation
