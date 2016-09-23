@@ -14,8 +14,11 @@ setup(
     include_package_data=True,
     package_data={
         'judge_pics': [
-            'data/*',
-            'judges.json',
+            'data/128/*',
+            'data/256/*',
+            'data/512/*',
+            'data/orig/*',
+            'data/judges.json',
         ]
     },
     classifiers=[
