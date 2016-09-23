@@ -22,6 +22,15 @@ class JudgePicsTests(TestCase):
             assert size in dir_list
 
 
+class JudgeScapersTests(TestCase):
+
+    def test_basic_import(self):
+        """
+        Test if we can import the scrapers sub module.
+        """
+        from judge_pics import scrapers
+
+
 if __name__ == '__main__':
     import unittest
     unittest.main()

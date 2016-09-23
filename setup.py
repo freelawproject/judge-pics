@@ -1,6 +1,11 @@
 from setuptools import setup, find_packages
+from pip.req import parse_requirements
 
 VERSION = '1.0.0'
+
+INSTALL_REQUIRES = [
+    str(r.req) for r in parse_requirements('requirements.txt', session=False)
+]
 
 setup(
     name="judge-pics",
@@ -36,4 +41,5 @@ setup(
         "Topic :: Software Development :: Libraries :: Python Modules",
     ],
     test_suite="tests",
+    install_requires=INSTALL_REQUIRES,
 )
