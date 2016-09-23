@@ -1,13 +1,13 @@
 import hashlib
 import json
-
-from dateutil import parser
-from lxml import html
 import requests
 import shutil
 
-with open('../judges.json', 'r') as j:
-    j = json.load(j)
+from judge_pics import judge_pics
+
+from dateutil import parser
+from lxml import html
+
 
 token = ''
 if token:
@@ -121,7 +121,7 @@ def run_things():
             img_hash = get_hash_from_file(slug + '.jpeg')
 
             # Update judges.json
-            j[slug] = {
+            judge_pics[slug] = {
                 'artist': None,
                 'date_created': None,
                 'license': 'Work of Federal Government',
@@ -130,8 +130,8 @@ def run_things():
             }
 
     json.dump(
-        j,
-        open('../judges.json', 'w'),
+        judge_pics,
+        open(os.path.join(judge_root, 'judges.json'), 'w'),
         sort_keys=True,
         indent=2,
     )
