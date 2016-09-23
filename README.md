@@ -93,8 +93,8 @@ Basic usage doesn't require any installation, but if you wish to import the
 `judges.json` file into a Python program, you may want to install this as a
 Python module in your system. To do so:
 
-    sudo git clone https://github.com/freelawproject/judge-pics /usr/local/judge_pics
-    sudo ln -s `pwd`/judge_pics `python -c "from distutils.sysconfig import get_python_lib; print get_python_lib()"`/judge_pics
+    sudo git clone https://github.com/freelawproject/judge-pics
+    python setup.py install
 
 You can then import the `judges.json` information into your project using:
 

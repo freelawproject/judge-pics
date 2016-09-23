@@ -1,16 +1,18 @@
 import hashlib
 import json
-from lxml import html
 import re
 import requests
 import shutil
 import subprocess
+import os
+
+from lxml import html
+
+from judge_pics import judge_pics, judge_root
+
 
 root_url = 'http://dcchs.org/Portraits/'
 line_re = re.compile('<a href="(.*)">(.*)</a')
-
-with open('../judges.json', 'r') as j:
-    j = json.load(j)
 
 
 def make_slug(name, path):
@@ -70,7 +72,7 @@ def run_things():
             img_hash = get_hash_from_file(slug + '.jpeg')
 
             # Update judges.json
-            j[slug] = {
+            judge_pics[slug] = {
                 'artist': artist,
                 'date_created': date_created,
                 'license': 'Work of Federal Government',
@@ -80,8 +82,8 @@ def run_things():
             }
 
     json.dump(
-        j,
-        open('../judges.json', 'w'),
+        judge_pics,
+        open(os.path.join(judge_root, 'judges.json'), 'w'),
         sort_keys=True,
         indent=2,
     )

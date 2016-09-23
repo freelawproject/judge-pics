@@ -8,7 +8,7 @@ import subprocess
 operating_directory = os.path.dirname(os.path.realpath(__file__))
 os.chdir(os.path.join(operating_directory, 'orig'))
 
-judges_json = json.load(open('../judges.json', 'r'))
+judges_json = json.load(open(os.path.join('..', 'judges.json'), 'r'))
 
 
 def get_old_hash(image):
