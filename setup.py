@@ -1,5 +1,10 @@
 from setuptools import setup, find_packages
-from pip.req import parse_requirements
+# https://stackoverflow.com/a/49867265/1869821
+try:  # for pip >= 10
+    from pip._internal.req import parse_requirements
+except ImportError:  # for pip <= 9.0.3
+    from pip.req import parse_requirements
+
 
 VERSION = '1.0.0'
 
