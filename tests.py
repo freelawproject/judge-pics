@@ -28,7 +28,7 @@ class JudgeScapersTests(TestCase):
         """
         Test if we can import the scrapers sub module.
         """
-        from judge_pics.scrapers import *
+        from judge_pics.scrapers import cand_judges
 
 
 if __name__ == "__main__":
