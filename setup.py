@@ -1,4 +1,5 @@
 from setuptools import setup, find_packages
+
 # https://stackoverflow.com/a/49867265/1869821
 try:  # for pip >= 10
     from pip._internal.req import parse_requirements
@@ -9,7 +10,7 @@ except ImportError:  # for pip <= 9.0.3
 VERSION = '1.0.1'
 
 INSTALL_REQUIRES = [
-    str(r.req) for r in parse_requirements('requirements.txt', session=False)
+    str(r.req) for r in parse_requirements("requirements.txt", session=False)
 ]
 
 setup(
@@ -20,15 +21,15 @@ setup(
     author_email="info@free.law",
     maintainer="Mike Lisser",
     maintainer_email="info@free.law",
-    packages=find_packages(exclude=('tests',)),
+    packages=find_packages(exclude=("tests",)),
     include_package_data=True,
     package_data={
-        'judge_pics': [
-            'data/128/*',
-            'data/256/*',
-            'data/512/*',
-            'data/orig/*',
-            'data/judges.json',
+        "judge_pics": [
+            "data/128/*",
+            "data/256/*",
+            "data/512/*",
+            "data/orig/*",
+            "data/judges.json",
         ]
     },
     classifiers=[

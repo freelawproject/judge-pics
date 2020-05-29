@@ -9,28 +9,29 @@ from dateutil import parser
 from lxml import html
 
 
-token = ''
+token = ""
 if token:
-    headers = {'Authorization': 'Token %s' % token}
+    headers = {"Authorization": "Token %s" % token}
 else:
-    print "Warning: No CourtListener token used. You'll run out of free queries to the API quickly."
+    print("Warning: No CourtListener token used. You'll run out of free queries to the API quickly.")
     headers = {}
+
 
 def granular_date(d, granularity):
     if not d:
-        return ''
+        return ""
 
     d = parser.parse(d).date()
 
-    GRANULARITY_YEAR = '%Y'
-    GRANULARITY_MONTH = '%Y-%m'
-    GRANULARITY_DAY = '%Y-%m-%d'
+    GRANULARITY_YEAR = "%Y"
+    GRANULARITY_MONTH = "%Y-%m"
+    GRANULARITY_DAY = "%Y-%m-%d"
     if granularity == GRANULARITY_DAY:
-        return "-" + d.strftime('%Y-%m-%d')
+        return "-" + d.strftime("%Y-%m-%d")
     elif granularity == GRANULARITY_MONTH:
-        return "-" + d.strftime('%Y-%m')
+        return "-" + d.strftime("%Y-%m")
     elif granularity == GRANULARITY_YEAR:
-        return "-" + d.strftime('%Y')
+        return "-" + d.strftime("%Y")
 
 
 def make_slug(name):
@@ -41,46 +42,52 @@ def make_slug(name):
     """
     # Drop middle initials
     name = name.lower()
-    name = ' '.join([n.replace(',', '') for n in name.split() if not n.endswith('.')])
+    name = " ".join(
+        [n.replace(",", "") for n in name.split() if not n.endswith(".")]
+    )
 
     result_json = requests.get(
-        'https://www.courtlistener.com/api/rest/v3/search/?type=p&name=%s&court=cand' % name,
+        "https://www.courtlistener.com/api/rest/v3/search/?type=p&name=%s&court=cand"
+        % name,
         headers=headers,
     ).json()
-    if result_json['count'] > 1:
-        print "Warning: Got back %s results for %s" % (result_json['count'], name)
+    if result_json["count"] > 1:
+        print("Warning: Got back %s results for %s" % (
+            result_json["count"],
+            name,
+        ))
         return None
-    if result_json['count'] < 1:
-        print "Warning: Got back no results for %s" % name
+    if result_json["count"] < 1:
+        print("Warning: Got back no results for %s" % name)
         name_parts = name.split()
         if len(name_parts) == 2:
             return "%s-%s" % (name_parts[1].lower(), name_parts[0].lower())
         return None
 
-    id = result_json['results'][0]['id']
+    id = result_json["results"][0]["id"]
     result_json = requests.get(
-        'https://www.courtlistener.com/api/rest/v3/people/?id=%s' % id,
+        "https://www.courtlistener.com/api/rest/v3/people/?id=%s" % id,
         headers=headers,
     ).json()
 
-    judge = result_json['results'][0]
+    judge = result_json["results"][0]
 
-    return '%s-%s%s' % (
-        judge['name_last'].lower(),
-        judge['name_first'].lower(),
-        granular_date(judge['date_dob'], judge['date_granularity_dob'])
+    return "%s-%s%s" % (
+        judge["name_last"].lower(),
+        judge["name_first"].lower(),
+        granular_date(judge["date_dob"], judge["date_granularity_dob"]),
     )
 
 
 def get_hash_from_file(image):
     """Get the hash from the current file"""
-    with open(image, 'r') as f:
+    with open(image, "r") as f:
         return hashlib.sha256(f.read()).hexdigest()
 
 
 def run_things():
-    base_href = 'http://www.cand.uscourts.gov'
-    start_path = '/judges'
+    base_href = "http://www.cand.uscourts.gov"
+    start_path = "/judges"
     start_url = base_href + start_path
     r = requests.get(start_url)
     html_tree = html.fromstring(r.text)
@@ -90,8 +97,8 @@ def run_things():
     judge_info = []
     for node in judge_nodes:
         try:
-            name = node.xpath('a/text()')[0]
-            url = node.xpath('a/@href')[0]
+            name = node.xpath("a/text()")[0]
+            url = node.xpath("a/@href")[0]
         except IndexError:
             continue
         else:
@@ -103,9 +110,11 @@ def run_things():
         judge_html.make_links_absolute(base_href)
 
         try:
-            img_path = judge_html.xpath('//div[@class = "judge_portrait"]//img/@src')[0]
+            img_path = judge_html.xpath(
+                '//div[@class = "judge_portrait"]//img/@src'
+            )[0]
         except IndexError:
-            print "Failed to find image for %s" % judge_link
+            print("Failed to find image for %s" % judge_link)
             continue
 
         img_r = requests.get(img_path, stream=True)
@@ -114,27 +123,28 @@ def run_things():
             if not slug:
                 continue
 
-            with open(slug + '.jpeg', 'wb') as f_img:
+            with open(slug + ".jpeg", "wb") as f_img:
                 img_r.raw.decode_content = True
                 shutil.copyfileobj(img_r.raw, f_img)
 
-            img_hash = get_hash_from_file(slug + '.jpeg')
+            img_hash = get_hash_from_file(slug + ".jpeg")
 
             # Update judges.json
             judge_pics[slug] = {
-                'artist': None,
-                'date_created': None,
-                'license': 'Work of Federal Government',
-                'source': judge_link,
-                'hash': img_hash,
+                "artist": None,
+                "date_created": None,
+                "license": "Work of Federal Government",
+                "source": judge_link,
+                "hash": img_hash,
             }
 
     json.dump(
         judge_pics,
-        open(os.path.join(judge_root, 'judges.json'), 'w'),
+        open(os.path.join(judge_root, "judges.json"), "w"),
         sort_keys=True,
         indent=2,
     )
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     run_things()
