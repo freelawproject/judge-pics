@@ -7,7 +7,7 @@ except ImportError:  # for pip <= 9.0.3
     from pip.req import parse_requirements
 
 
-VERSION = '1.1.0'
+VERSION = "1.1.0"
 
 INSTALL_REQUIRES = [
     str(r.req) for r in parse_requirements("requirements.txt", session=False)

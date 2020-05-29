@@ -13,7 +13,9 @@ token = ""
 if token:
     headers = {"Authorization": "Token %s" % token}
 else:
-    print("Warning: No CourtListener token used. You'll run out of free queries to the API quickly.")
+    print(
+        "Warning: No CourtListener token used. You'll run out of free queries to the API quickly."
+    )
     headers = {}
 
 
@@ -52,10 +54,10 @@ def make_slug(name):
         headers=headers,
     ).json()
     if result_json["count"] > 1:
-        print("Warning: Got back %s results for %s" % (
-            result_json["count"],
-            name,
-        ))
+        print(
+            "Warning: Got back %s results for %s"
+            % (result_json["count"], name,)
+        )
         return None
     if result_json["count"] < 1:
         print("Warning: Got back no results for %s" % name)
