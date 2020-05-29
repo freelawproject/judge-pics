@@ -91,14 +91,40 @@ Installation
 
 Basic usage doesn't require any installation, but if you wish to import the
 `judges.json` file into a Python program, you may want to install this as a
-Python module in your system. To do so:
+Python module in your system. You can do so manually, with:
 
     git clone https://github.com/freelawproject/judge-pics
     sudo python setup.py install
 
-You can then import the `judges.json` information into your project using:
+Or you can do so using pip with something like:
+
+    pip install git+https://github.com/freelawproject/judge-pics@master
+    
+Or...
+
+    pip install git+https://github.com/freelawproject/judge-pics@1.1.0
+    
+...where "1.1.0" is a valid tag name.
+
+Unfortunately, because this project is so large, pypi won't allow it in without
+jumping through a bunch of hoops. If you want to help us do this, please let us 
+know.
+
+However you install, once you've got it, you can import the `judges.json` 
+information into your project using:
 
     from judge_pics import judge_pics
+
+
+New Releases
+------------
+New releases are fairly seldom. When they happen, the version number is bumped
+in setup.py, and a new tag matching that version number is added to git.
+
+`judge-pics` is currently about 300MB in size, so [PyPi won't allow it 
+in][pypi].
+
+[pypi]: https://pypi.org/help/#file-size-limit
 
 
 A Note to Judges
