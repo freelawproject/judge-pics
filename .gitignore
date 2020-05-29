@@ -53,3 +53,7 @@ docs/_build/
 # PyBuilder
 target/
 .eggs/
+
+# Editors
+.idea/
+judge-pics.iml
