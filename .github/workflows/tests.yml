@@ -23,7 +23,7 @@ jobs:
                 --no-install-recommends \
                 --assume-yes \
                 --quiet=2 \
-                libxml2-dev
+                libxml2-dev libxslt-dev
     - name: Install Python dependencies
       run: |
         python -m pip install --upgrade pip
