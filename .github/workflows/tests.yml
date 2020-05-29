@@ -16,7 +16,15 @@ jobs:
       uses: actions/setup-python@v1
       with:
         python-version: ${{ matrix.python-version }}
-    - name: Install dependencies
+    - name: Install OS dependencies
+      run: |
+        sudo apt-get install \
+                --option "Acquire::Retries=3" \
+                --no-install-recommends \
+                --assume-yes \
+                --quiet=2 \
+                libxml2-dev
+    - name: Install Python dependencies
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
