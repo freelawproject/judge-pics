@@ -96,7 +96,10 @@ def convert_images():
 def save_new_json():
     """Update the JSON object on disk."""
     json.dump(
-        judges_json, open("../judges.json", "w"), sort_keys=True, indent=2,
+        judges_json,
+        open("../judges.json", "w"),
+        sort_keys=True,
+        indent=2,
     )
 
 

@@ -56,7 +56,10 @@ def make_slug(name):
     if result_json["count"] > 1:
         print(
             "Warning: Got back %s results for %s"
-            % (result_json["count"], name,)
+            % (
+                result_json["count"],
+                name,
+            )
         )
         return None
     if result_json["count"] < 1:
