@@ -2,7 +2,7 @@
 
 set -e
 
-DOCKER_TAG = $(shell cat version.txt)
+DOCKER_TAG=$(<../version.txt)
 
 # Parse image name for repo name
 tagStart=$(expr index "$IMAGE_NAME" :)
