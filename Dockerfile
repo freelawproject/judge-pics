@@ -1,9 +1,5 @@
 FROM python:3.8-slim
 
-#Copy project to Docker image
-RUN mkdir /project
-WORKDIR /project
-
 RUN apt-get update --option "Acquire::Retries=3" --quiet=2 && \
     apt-get install \
         --no-install-recommends \
