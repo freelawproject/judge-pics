@@ -1,3 +1,12 @@
-FROM python:2.7
+FROM python:3.8-slim
 
-RUN pip install git+https://github.com/freelawproject/judge-pics@1.1.2
+#Copy project to Docker image
+COPY . /project/
+WORKDIR /project
+
+#Install requirements
+RUN pip install -r requirements.txt
+
+# Install judge-pics
+RUN python setup.py install
+
