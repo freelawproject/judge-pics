@@ -122,7 +122,13 @@ New releases are fairly seldom. When they happen, the version number is bumped
 in setup.py, and a new tag matching that version number is added to git.
 
 `judge-pics` is currently about 300MB in size, so [PyPi won't allow it 
-in][pypi].
+in][pypi], but we do make docker images to celebrate new releases. To do so:
+
+```sh
+docker build -t freelawproject/judge-pics:latest -t freelawproject/judge-pics:1.2.1 --file Dockerfile . && \
+  docker push freelawproject/judge-pics:latest && \
+  docker push freelawproject/judge-pics:1.2.1
+```
 
 [pypi]: https://pypi.org/help/#file-size-limit
 
