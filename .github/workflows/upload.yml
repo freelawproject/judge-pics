@@ -1,0 +1,27 @@
+name: Test
+
+on:
+  push:
+    tags:
+      - v*.*.*
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2.1.0
+        with:
+         format: space-delimited
+         token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Install stuff
+        run: |
+          sudo apt-get update
+          sudo apt-get install poppler-utils -y
+          sudo apt-get install python3-pip -y
+          pip install -r requirements-ci.txt
+      - name: Upload portraits
+        working-directory: judge_pics/
+        run: |
+          python3 upload.py \
+          -a ${{ secrets.AWS_ACCESS_KEY }} \
+          -s ${{ secrets.AWS_SECRET_KEY }}
