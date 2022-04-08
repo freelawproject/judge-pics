@@ -3,7 +3,7 @@ import os
 from setuptools import setup, find_packages
 
 
-VERSION = "1.2.2"
+VERSION = "1.2.3"
 HERE = os.path.abspath(os.path.dirname(__file__))
 
 
@@ -20,15 +20,12 @@ setup(
     author_email="info@free.law",
     maintainer="Mike Lisser",
     maintainer_email="info@free.law",
-    packages=find_packages(exclude=("tests",)),
+    packages=find_packages(exclude=["tests", "judge_pics.data.orig"]),
     include_package_data=True,
     package_data={
         "judge_pics": [
-            "data/128/*",
-            "data/256/*",
-            "data/512/*",
-            "data/orig/*",
             "data/judges.json",
+            "data/people.json",
         ]
     },
     classifiers=[
