@@ -13,7 +13,13 @@ if ROOT_DIR.split("/")[-1] != "judge_pics":
 
 
 def get_hash_from_file(image) -> str:
-    """Get the hash from the current file"""
+    """Get the sha256 hash from the current file"""
+    with Path(ROOT_DIR, "data", "orig", image).open(mode="rb") as f:
+        return hashlib.sha256(f.read()).hexdigest()
+
+
+def strip_metadata_from_file(image) -> None:
+    """Remove any metadata from the file and replace it."""
 
     command = [
         "exiftool",
@@ -24,13 +30,10 @@ def get_hash_from_file(image) -> str:
     ]
     subprocess.Popen(command, shell=False).communicate()
 
-    with Path(ROOT_DIR, "data", "orig", image).open(mode="rb") as f:
-        return hashlib.sha256(f.read()).hexdigest()
-
 
 def update_judge_json(
-    filename: Optional[str],
-    person: Optional[int],
+    filename: str,
+    person: int,
     date_created: Optional[str],
     artist: Optional[str],
     source: Optional[str],
@@ -53,9 +56,12 @@ def update_judge_json(
 
     if judge:
         raise ValueError("Judge already exists")
+    strip_metadata_from_file(filename)
     sha_hash = get_hash_from_file(filename)
     if any([x["hash"] == sha_hash for x in judges_json]):
-        raise ValueError("Image already exists in the database")
+        raise ValueError(
+            f"Image with hash '{sha_hash}' already exists in the database"
+        )
 
     judges_json.append(
         {
@@ -75,20 +81,21 @@ def update_judge_json(
 
 if __name__ == "__main__":
     """Before one can add to the repository you must first strip the exif data
-    from the image and add the metadata of the file to the list of judges
-    this method checks that the image is not alrady in the system and updates the
-    json file people.json"""
+    from the image and add the metadata of the file to the list of judges.
+    This method checks that the image is not already in the system and updates
+    people.json.
+    """
 
     parse = argparse.ArgumentParser(description="Create a new portrait")
     parse.add_argument(
         "--filename", help="The name of the file", required=True
     )
     parse.add_argument(
-        "--person", type=int, help="The Courtlistener Person ID", required=True
+        "--person", type=int, help="The CourtListener Person ID", required=True
     )
     parse.add_argument(
         "--source",
-        help="The source (url) of the image",
+        help="The source (url) of the image for record keeping",
         required=False,
         default=None,
     )
@@ -97,7 +104,7 @@ if __name__ == "__main__":
     )
     parse.add_argument(
         "--license",
-        help="The artist",
+        help="The license of the image",
         required=False,
         default="Work of Federal Government",
     )
