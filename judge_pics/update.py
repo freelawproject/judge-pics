@@ -11,6 +11,7 @@ ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
 if ROOT_DIR.split("/")[-1] != "judge_pics":
     raise "Please run update from the judge_pics directory"
 
+
 def get_hash_from_file(image) -> str:
     """Get the hash from the current file"""
 

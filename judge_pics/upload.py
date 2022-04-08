@@ -35,7 +35,10 @@ def upload(file_path, aws_path, access_key, secret_key) -> None:
     )
     transfer = S3Transfer(client)
     transfer.upload_file(
-        file_path, bucket, aws_path, extra_args={'ContentType': "image/jpeg", "ACL": "public-read"}
+        file_path,
+        bucket,
+        aws_path,
+        extra_args={"ContentType": "image/jpeg", "ACL": "public-read"},
     )
     print(f"http://{bucket}.s3-us-west-2.amazonaws.com/{aws_path}")
 
@@ -91,8 +94,7 @@ def find_new_portraits(access_key: str, secret_key: str) -> list:
     s3 = session.resource("s3")
     bucket = s3.Bucket("portraits.free.law")
     aws_portraits = [
-        x.key.split("/")[-1]
-        for x in bucket.objects.filter(Prefix="v2/orig/")
+        x.key.split("/")[-1] for x in bucket.objects.filter(Prefix="v2/orig/")
     ]
     local_portraits = [
         x.split("/")[-1] for x in glob.glob(f"{ROOT_DIR}/data/orig/*.jpeg")

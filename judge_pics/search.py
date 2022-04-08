@@ -19,13 +19,14 @@ class ImageSizes:
     large: int = 512
     original: None = None
 
-SIZES = Literal[ImageSizes.small, ImageSizes.medium, ImageSizes.large, ImageSizes.original]
+
+SIZES = Literal[
+    ImageSizes.small, ImageSizes.medium, ImageSizes.large, ImageSizes.original
+]
 
 
-def portrait(person: int, size: SIZES=None) -> str:
-    """Get URL for portait on CL
-
-    """
+def portrait(person: int, size: SIZES = None) -> str:
+    """Get URL for portait on CL"""
     if not size:
         size = "orig"
     path = [x for x in judges if x["person"] == person][0]["path"]
