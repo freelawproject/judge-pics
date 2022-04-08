@@ -1,5 +1,6 @@
 import json
 import os
+from enum import Enum
 from pathlib import Path
 from tempfile import NamedTemporaryFile
 from typing import Literal
@@ -13,28 +14,26 @@ with Path(ROOT, "data", "people.json").open() as f:
     judges = json.load(f)
 
 
-class ImageSizes:
-    small: int = 128
-    medium: int = 256
-    large: int = 512
-    original: None = None
+class ImageSizes(Enum):
+    SMALL = 128
+    MEDIUM = 256
+    LARGE = 512
+    ORIGINAL = None
 
 
 SIZES = Literal[
-    ImageSizes.small, ImageSizes.medium, ImageSizes.large, ImageSizes.original
+    ImageSizes.SMALL, ImageSizes.MEDIUM, ImageSizes.LARGE, ImageSizes.ORIGINAL
 ]
 
 
-def portrait(person: int, size: SIZES = None) -> str:
-    """Get URL for portait on CL"""
-    if not size:
-        size = "orig"
+def portrait(person: int, size: SIZES = "orig") -> str:
+    """Get URL for portait on free.law"""
     path = [x for x in judges if x["person"] == person][0]["path"]
     return f"https://portraits.free.law/v2/{size}/{path}.jpeg"
 
 
 def show(person: int, size: ImageSizes = None) -> str:
-    """"""
+    """Get the image as ANSI escape codes so you can print it out"""
     url = portrait(person, size)
     r = requests.get(url, timeout=10)
     with NamedTemporaryFile(suffix=".jpeg") as tmp:
