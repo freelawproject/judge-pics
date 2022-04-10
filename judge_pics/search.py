@@ -3,7 +3,7 @@ import os
 from enum import Enum
 from pathlib import Path
 from tempfile import NamedTemporaryFile
-from typing import Literal
+from typing import Literal, Optional
 
 import climage
 import requests
@@ -18,7 +18,7 @@ class ImageSizes(Enum):
     SMALL = 128
     MEDIUM = 256
     LARGE = 512
-    ORIGINAL = None
+    ORIGINAL = "orig"
 
 
 SIZES = Literal[
@@ -26,10 +26,13 @@ SIZES = Literal[
 ]
 
 
-def portrait(person: int, size: SIZES = "orig") -> str:
+def portrait(person: int, size: SIZES = ImageSizes.ORIGINAL) -> Optional[str]:
     """Get URL for portait on free.law"""
-    path = [x for x in judges if x["person"] == person][0]["path"]
-    return f"https://portraits.free.law/v2/{size}/{path}.jpeg"
+    paths = [x for x in judges if x["person"] == person]
+    if len(paths) > 0:
+        return f"https://portraits.free.law/v2/{size.value}/{paths[0]['path']}.jpeg"
+    else:
+        return None
 
 
 def show(person: int, size: ImageSizes = None) -> str:
