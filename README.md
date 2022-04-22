@@ -8,7 +8,7 @@ Original files can be found in the `orig` directory.
 
 ## Using this Project
 
-This system is exceedingly simple. To use this it, install the judge pics package from pypi:
+This system is exceedingly simple. To use it, install the judge pics package from pypi:
 
     pip install judge-pics
 
@@ -21,17 +21,20 @@ And then use that package to get the URL of a judge's portrait. You can do that 
 Or if you know the CourtListener ID for that judge, that works too (and is more reliable). Ketanji Jackson is ID 1609, so:
 
     >>> portrait(1609, ImageSizes.SMALL)
-    'https://portraits.free.law/v2/128/jackson-ketanji-1970.jpeg'
+    'https://portraits.free.law/v2/128/jackson-ketanji-1970.jpeg' 
 
 Now that you have the URL of the judge's photo in a useful size, just embed it in your application. Perhaps:
 
 ```html
-<img src="'https://portraits.free.law/v2/128/jackson-ketanji-1970.jpeg"/>
+<img src="'https://portraits.free.law/v2/128/jackson-ketanji-1970.jpeg" 
+     height=128 />
 ```
+
+One thing we don't currently do is provide a consistent width for the photos. This is because our sources are not consistent, and we opted to set the height consistently instead of the width. You can work around this by using the `width` attribute of the `img` tag instead of the `height` (in which case the browser will scale it for you), or by just ignoring the `width` attribute and letting the photo  have slightly varying widths on your page.
 
 Simple enough. The URLs we provide you will be reliable, performant, secure, and permanent (see below for details).
 
-You can request images in one of the following sizes:
+You can request images in one of the following heights:
 
 ```python
 class ImageSizes(Enum):
@@ -41,7 +44,7 @@ class ImageSizes(Enum):
     ORIGINAL = "orig"
 ```
 
-Selecting `ImageSizes.ORIGINAL` will give you a link to the original image that we have in our collection. You'd want to use this to make custom sized images, say.
+Selecting `ImageSizes.ORIGINAL` will give you a link to the original image that we have in our collection. You might use this to make custom-sized images, say.
 
 Finally, if you're debugging or playing around, you can get a feel for a picture by using the `show` function:
 
@@ -54,13 +57,13 @@ That's about it.
 
 ### How reliable is the service?
 
-Very. It uses AWS S3 with CloudFront as a CDN. That gives us a LOT of of nines.
+Very. It uses AWS S3 with CloudFront as a CDN. That gives us a LOT of nines.
 
 ### What about versioning? 
 
 Over time, we will be adding more photos to these collections. These will arrive as updates to the Python package and as new photos in the service. We expect these to be generally backwards compatible, but if we need to break compatibility, we will do so by bumping the Python package to version 3.x, and changing the URL of the images to contain v3 instead of v2.
 
-We see no reason why past URLs will ever change.
+We see no reason why past URLs will ever change, though we may clean up photos in place by doing better crops or supplying a more recent photo, etc.
 
 ### So this is a free service? Huh?
 
@@ -75,6 +78,8 @@ Here's how we're thinking about it.
 **1. What prevents the images from being replaced with malicious ones?**
 
 The short answer is that our incentives are aligned with yours. Because our website uses this same service, it would be difficult for an attacker to put malicious photos on your website without them also appearing on ours. This service is included in our [vulnerability disclosure policy][vdp], and we use process and technical measures to prevent incidents.
+
+Because this service is hosted on S3, we do not manage servers and do not have to worry about things like expired HTTPS certificates, server vulnerabilities, etc. 
 
 In browsers, there is some discussion of a way to use cryptographic signatures to ensure the integrity of hotlinked images, but the feature has not seen much support. ([We're trying to nudge it along.][spec])
 
@@ -99,7 +104,7 @@ The short answer is "not really." If you're using the `<img>` tag to put judge p
 
 ## Contributing as a Developer
 
-This project is fairly easy to contribute to and we need lots of help gathering files. You can see untapped sources for images in the [additional-sources.md][add] file.
+This project is fairly easy to contribute to, and we need lots of help gathering files. You can see untapped sources for images in the [additional-sources.md][add] file.
 
 The normal process is:
 
