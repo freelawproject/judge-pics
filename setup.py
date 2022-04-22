@@ -3,7 +3,7 @@ import os
 from setuptools import setup, find_packages
 
 
-VERSION = "2.0.2"
+VERSION = "2.0.3"
 HERE = os.path.abspath(os.path.dirname(__file__))
 
 
@@ -12,9 +12,15 @@ with open(reqs_path) as reqs_file:
     reqs = reqs_file.read().splitlines()
 
 
+with open("README.md") as f:
+    README = f.read()
+
+
 setup(
     name="judge-pics",
     description="Database of Judge Pictures",
+    long_description=README,
+    long_description_content_type="text/markdown",
     version=VERSION,
     author="Mike Lissner",
     author_email="info@free.law",

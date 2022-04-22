@@ -1,14 +1,13 @@
 
-Welcome to the Judge Pics Repository
-====================================
+# Welcome to the Judge Pics Repository
 
 This is a collection of judicial portraits that works in tandem with the Free Law Project judicial portraits service. You can use this system to integrate picture of judges directly into your applications.
 
-Original files can be found in the `orig` directory and converted versions can be found in the numerical directories.
+Original files can be found in the `orig` directory.
 
 
-Using this Project
-------------------
+## Using this Project
+
 This system is exceedingly simple. To use this it, install the judge pics package from pypi:
 
     pip install judge-pics
