@@ -24,7 +24,6 @@ setup(
     include_package_data=True,
     package_data={
         "judge_pics": [
-            "data/judges.json",
             "data/people.json",
         ]
     },

@@ -7,5 +7,5 @@ judge_root = os.path.abspath(
 )
 
 
-with open(os.path.join(judge_root, "judges.json")) as f:
+with open(os.path.join(judge_root, "people.json")) as f:
     judge_pics = json.load(f)
