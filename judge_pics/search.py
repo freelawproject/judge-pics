@@ -34,7 +34,7 @@ def query(search_str: str, size: SIZES = ImageSizes.MEDIUM) -> Optional[List]:
 
     xlist = []
     for path in paths:
-        matching_path = re.sub("[\d-]+", " ", path).strip()
+        matching_path = re.sub(r"[\d-]+", " ", path).strip()
         m = fuzz.token_sort_ratio(matching_path, search_str.lower())
         xlist.append((path, m))
         if m > 95:
