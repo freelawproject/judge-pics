@@ -4,7 +4,7 @@ import re
 from enum import Enum
 from pathlib import Path
 from tempfile import NamedTemporaryFile
-from typing import Literal, Optional, List, Union
+from typing import List, Literal, Optional, Union
 
 import climage
 import requests
@@ -12,7 +12,7 @@ from fuzzywuzzy import fuzz
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 
-with Path(ROOT, "data", "people.json").open() as f:
+with Path(ROOT, "data", "people.json").open(encoding="utf-8") as f:
     judges = json.load(f)
 
 
@@ -72,7 +72,7 @@ def show(person: int, size: ImageSizes = None) -> str:
     url = portrait(person, size)
     r = requests.get(url, timeout=10)
     with NamedTemporaryFile(suffix=".jpeg") as tmp:
-        with open(tmp.name, "wb") as f:
-            f.write(r.content)
+        with open(tmp.name, "wb") as file:
+            file.write(r.content)
         output = climage.convert(tmp.name, width=40)
     return output

@@ -25,6 +25,8 @@ jobs:
           python3 upload.py \
           -a ${{ secrets.AWS_ACCESS_KEY }} \
           -s ${{ secrets.AWS_SECRET_KEY }}
+      - name: Install packaging
+        run: python -m pip install -U packaging
       - name: Publish package
         uses: casperdcl/deploy-pypi@v2
         with:

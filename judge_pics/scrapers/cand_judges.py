@@ -1,25 +1,35 @@
 import hashlib
 import json
-import requests
+import os
 import shutil
+from typing import Optional
 
-from judge_pics import judge_pics
-
+import requests
 from dateutil import parser
 from lxml import html
+from requests import RequestException, Timeout
 
+from judge_pics import judge_pics, judge_root
 
 token = ""
 if token:
     headers = {"Authorization": "Token %s" % token}
 else:
     print(
-        "Warning: No CourtListener token used. You'll run out of free queries to the API quickly."
+        "Warning: No CourtListener token used. You'll run out of free "
+        "queries to the API quickly."
     )
     headers = {}
 
 
-def granular_date(d, granularity):
+def granular_date(d: Optional[str], granularity: str) -> str:
+    """Convert a date string into a formatted date based on the specified
+    granularity
+
+    :param d: the date to format, as a string.
+    :param granularity: the level of granularity for the formatted date
+    :return The formatted date string based on the given granularity
+    """
     if not d:
         return ""
 
@@ -36,9 +46,9 @@ def granular_date(d, granularity):
         return "-" + d.strftime("%Y")
 
 
-def make_slug(name):
+def make_slug(name: str) -> str | None:
     """Hit our search engine and get back a good result. Look that up in the
-    People endpoint to get glorius metadata.
+    People endpoint to get glorious metadata.
 
     We start with a full name, so we plug that in.
     """
@@ -48,11 +58,23 @@ def make_slug(name):
         [n.replace(",", "") for n in name.split() if not n.endswith(".")]
     )
 
-    result_json = requests.get(
-        "https://www.courtlistener.com/api/rest/v3/search/?type=p&name=%s&court=cand"
-        % name,
-        headers=headers,
-    ).json()
+    try:
+        result_json = requests.get(
+            "https://www.courtlistener.com/api/rest/v4/search/?type=p&name=%s&court=cand"
+            % name,
+            headers=headers,
+            timeout=10,
+        ).json()
+    except Timeout:
+        print(f"Request timed out while searching for {name}.")
+        return None
+    except RequestException as e:
+        print(f"An error occurred while making the request: {e}")
+        return None
+    except ValueError as e:
+        print(f"Failed to parse JSON response while searching for {name}: {e}")
+        return None
+
     if result_json["count"] > 1:
         print(
             "Warning: Got back %s results for %s"
@@ -66,27 +88,32 @@ def make_slug(name):
         print("Warning: Got back no results for %s" % name)
         name_parts = name.split()
         if len(name_parts) == 2:
-            return "%s-%s" % (name_parts[1].lower(), name_parts[0].lower())
+            return f"{name_parts[1].lower()}-{name_parts[0].lower()}"
         return None
 
-    id = result_json["results"][0]["id"]
+    result_id = result_json["results"][0]["id"]
     result_json = requests.get(
-        "https://www.courtlistener.com/api/rest/v3/people/?id=%s" % id,
+        "https://www.courtlistener.com/api/rest/v4/people/?id=%s" % result_id,
         headers=headers,
+        timeout=10,
     ).json()
 
     judge = result_json["results"][0]
 
-    return "%s-%s%s" % (
+    return "{}-{}{}".format(
         judge["name_last"].lower(),
         judge["name_first"].lower(),
         granular_date(judge["date_dob"], judge["date_granularity_dob"]),
     )
 
 
-def get_hash_from_file(image):
-    """Get the hash from the current file"""
-    with open(image, "r") as f:
+def get_hash_from_file(image: str) -> str:
+    """Get the hash from the current file
+
+    :param image: The file path to compute the hash for
+    :return The SHA-256 hash of the file content
+    """
+    with open(image, "rb") as f:
         return hashlib.sha256(f.read()).hexdigest()
 
 
@@ -94,10 +121,18 @@ def run_things():
     base_href = "http://www.cand.uscourts.gov"
     start_path = "/judges"
     start_url = base_href + start_path
-    r = requests.get(start_url)
+
+    try:
+        r = requests.get(start_url, timeout=10)
+    except Timeout:
+        print(f"Request to {start_url} timed out. Please try again later.")
+        return
+    except RequestException as e:
+        print(f"An error occurred: {e}")
+        return
+
     html_tree = html.fromstring(r.text)
     html_tree.make_links_absolute(base_href)
-
     judge_nodes = html_tree.xpath('//section[@id="main-content"]//li')
     judge_info = []
     for node in judge_nodes:
@@ -110,7 +145,18 @@ def run_things():
             judge_info.append((name, url))
 
     for judge_name, judge_link in judge_info:
-        judge_r = requests.get(judge_link)
+
+        try:
+            judge_r = requests.get(judge_link, timeout=10)
+        except Timeout:
+            print(
+                f"Request to {judge_link} timed out. Please try again later."
+            )
+            continue
+        except RequestException as e:
+            print(f"An error occurred: {e}")
+            continue
+
         judge_html = html.fromstring(judge_r.text)
         judge_html.make_links_absolute(base_href)
 
@@ -122,7 +168,15 @@ def run_things():
             print("Failed to find image for %s" % judge_link)
             continue
 
-        img_r = requests.get(img_path, stream=True)
+        try:
+            img_r = requests.get(img_path, stream=True, timeout=10)
+        except Timeout:
+            print(f"Request to {img_path} timed out. Please try again later.")
+            continue
+        except RequestException as e:
+            print(f"An error occurred: {e}")
+            continue
+
         if img_r.status_code == 200:
             slug = make_slug(judge_name)
             if not slug:
@@ -145,7 +199,7 @@ def run_things():
 
     json.dump(
         judge_pics,
-        open(os.path.join(judge_root, "judges.json"), "w"),
+        open(os.path.join(judge_root, "judges.json"), "w", encoding="utf-8"),
         sort_keys=True,
         indent=2,
     )

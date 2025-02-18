@@ -9,17 +9,26 @@ from typing import Optional
 ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
 
 if ROOT_DIR.split("/")[-1] != "judge_pics":
-    raise "Please run update from the judge_pics directory"
+    raise RuntimeError("Please run update from the judge_pics directory")
 
 
-def get_hash_from_file(image) -> str:
-    """Get the sha256 hash from the current file"""
+def get_hash_from_file(image: str) -> str:
+    """Get the hash from the current file
+
+    :param image: The file path to compute the hash for
+    :return The SHA-256 hash of the file content
+    """
+
     with Path(ROOT_DIR, "data", "orig", image).open(mode="rb") as f:
         return hashlib.sha256(f.read()).hexdigest()
 
 
-def strip_metadata_from_file(image) -> None:
-    """Remove any metadata from the file and replace it."""
+def strip_metadata_from_file(image: str) -> None:
+    """Remove any metadata from the file and replace it.
+
+    :param image: The name of the image file from which to remove metadata
+    :return
+    """
 
     command = [
         "exiftool",
@@ -37,7 +46,7 @@ def update_judge_json(
     date_created: Optional[str],
     artist: Optional[str],
     source: Optional[str],
-    license: Optional[str],
+    license_info: Optional[str],
 ) -> None:
     """Add new file to repository metadata
 
@@ -46,10 +55,12 @@ def update_judge_json(
     :param date_created: The date created
     :param artist: The artist
     :param source: The source
-    :param license: The license
+    :param license_info: The license
     :return:
     """
-    with Path(ROOT_DIR, "data", "people.json").open(mode="r") as f:
+    with Path(ROOT_DIR, "data", "people.json").open(
+        mode="r", encoding="utf-8"
+    ) as f:
         judges_json = json.load(f)
 
     judge = [x for x in judges_json if x["person"] == person]
@@ -66,7 +77,7 @@ def update_judge_json(
     judges_json.append(
         {
             "hash": sha_hash,
-            "license": license,
+            "license": license_info,
             "source": source,
             "artist": artist,
             "date_created": date_created,
@@ -75,7 +86,9 @@ def update_judge_json(
         }
     )
 
-    with Path(ROOT_DIR, "data", "people.json").open(mode="w") as f:
+    with Path(ROOT_DIR, "data", "people.json").open(
+        mode="w", encoding="utf-8"
+    ) as f:
         json.dump(judges_json, f, sort_keys=True, indent=2)
 
 
@@ -118,5 +131,5 @@ if __name__ == "__main__":
         date_created=parse.parse_args().date_created,
         artist=parse.parse_args().artist,
         source=parse.parse_args().source,
-        license=parse.parse_args().license,
+        license_info=parse.parse_args().license,
     )

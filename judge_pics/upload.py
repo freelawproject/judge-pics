@@ -14,10 +14,12 @@ sizes = ["128", "256", "512", "orig"]
 ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
 
 if ROOT_DIR.split("/")[-1] != "judge_pics":
-    raise "Please run update from the judge_pics directory"
+    raise RuntimeError("Please run update from the judge_pics directory")
 
 
-def upload(file_path, aws_path, access_key, secret_key) -> None:
+def upload(
+    file_path: str, aws_path: str, access_key: str, secret_key: str
+) -> None:
     """Uploads a file to an S3 bucket.
 
     :param file_path: File to upload
@@ -65,7 +67,7 @@ def validate_json() -> bool:
 
     :return: True if valid, else Raises an exception
     """
-    with Path(ROOT_DIR, "data", "people.json").open() as f:
+    with Path(ROOT_DIR, "data", "people.json").open(encoding="utf-8") as f:
         judges = json.load(f)
 
     judges_in_json = [f'{v["path"]}.jpeg' for v in judges]
@@ -78,7 +80,7 @@ def validate_json() -> bool:
     if not missing_judges:
         return True
 
-    raise Exception(f"Missing entry for: {' '.join(missing_judges)}")
+    raise ValueError(f"Missing entry for: {' '.join(missing_judges)}")
 
 
 def find_new_portraits(access_key: str, secret_key: str) -> list:

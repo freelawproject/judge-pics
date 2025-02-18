@@ -1,18 +1,17 @@
 import os
 
-from setuptools import setup, find_packages
-
+from setuptools import find_packages, setup
 
 VERSION = "2.0.5"
 HERE = os.path.abspath(os.path.dirname(__file__))
 
 
 reqs_path = HERE + "/requirements.txt"
-with open(reqs_path) as reqs_file:
+with open(reqs_path, encoding="utf-8") as reqs_file:
     reqs = reqs_file.read().splitlines()
 
 
-with open("README.md") as f:
+with open("README.md", encoding="utf-8") as f:
     README = f.read()
 
 
@@ -41,8 +40,6 @@ setup(
         "Operating System :: OS Independent",
         "Programming Language :: Python",
         "Programming Language :: Python :: 3",
-        "Programming Language :: Python :: 3.7",
-        "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10",
         "Programming Language :: Python :: 3.11",
