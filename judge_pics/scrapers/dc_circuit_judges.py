@@ -4,7 +4,7 @@ import os
 import re
 import shutil
 import subprocess
-from typing import Optional, Tuple
+from typing import Optional
 
 import requests
 from lxml import html
@@ -30,7 +30,7 @@ def make_slug(name: str, path: str) -> str:
 
 def get_artist_and_date_created(
     full_url: str,
-) -> Tuple[Optional[str], Optional[str]]:
+) -> tuple[Optional[str], Optional[str]]:
     """Open firefox, prompt for answer, sanitize answer and return it.
 
     :param full_url: The URL to be opened in the Firefox browser

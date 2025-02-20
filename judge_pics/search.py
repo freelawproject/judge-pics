@@ -4,7 +4,7 @@ import re
 from enum import Enum
 from pathlib import Path
 from tempfile import NamedTemporaryFile
-from typing import List, Literal, Optional, Union
+from typing import Literal, Optional, Union
 
 import climage
 import requests
@@ -28,7 +28,7 @@ SIZES = Literal[
 ]
 
 
-def query(search_str: str, size: SIZES = ImageSizes.MEDIUM) -> Optional[List]:
+def query(search_str: str, size: SIZES = ImageSizes.MEDIUM) -> Optional[list]:
     """Find a judge by name"""
     paths = [j["path"] for j in judges]
 
