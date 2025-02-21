@@ -21,12 +21,12 @@ And then use that package to get the URL of a judge's portrait. You can do that 
 Or if you know the CourtListener ID for that judge, that works too (and is more reliable). Ketanji Jackson is ID 1609, so:
 
     >>> portrait(1609, ImageSizes.SMALL)
-    'https://portraits.free.law/v2/128/jackson-ketanji-1970.jpeg' 
+    'https://portraits.free.law/v2/128/jackson-ketanji-1970.jpeg'
 
 Now that you have the URL of the judge's photo in a useful size, just embed it in your application. Perhaps:
 
 ```html
-<img src="'https://portraits.free.law/v2/128/jackson-ketanji-1970.jpeg" 
+<img src="'https://portraits.free.law/v2/128/jackson-ketanji-1970.jpeg"
      height=128 />
 ```
 
@@ -59,7 +59,7 @@ That's about it.
 
 Very. It uses AWS S3 with CloudFront as a CDN. That gives us a LOT of nines.
 
-### What about versioning? 
+### What about versioning?
 
 Over time, we will be adding more photos to these collections. These will arrive as updates to the Python package and as new photos in the service. We expect these to be generally backwards compatible, but if we need to break compatibility, we will do so by bumping the Python package to version 3.x, and changing the URL of the images to contain v3 instead of v2.
 
@@ -79,7 +79,7 @@ Here's how we're thinking about it.
 
 The short answer is that our incentives are aligned with yours. Because our website uses this same service, it would be difficult for an attacker to put malicious photos on your website without them also appearing on ours. This service is included in our [vulnerability disclosure policy][vdp], and we use process and technical measures to prevent incidents.
 
-Because this service is hosted on S3, we do not manage servers and do not have to worry about things like expired HTTPS certificates, server vulnerabilities, etc. 
+Because this service is hosted on S3, we do not manage servers and do not have to worry about things like expired HTTPS certificates, server vulnerabilities, etc.
 
 In browsers, there is some discussion of a way to use cryptographic signatures to ensure the integrity of hotlinked images, but the feature has not seen much support. ([We're trying to nudge it along.][spec])
 

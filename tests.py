@@ -1,7 +1,8 @@
-from unittest import TestCase
-import climage
-import random
 import os
+import random
+from unittest import TestCase
+
+import climage
 
 
 class RandomJudgePortrait(TestCase):
