@@ -70,13 +70,13 @@ def validate_json() -> bool:
     with Path(ROOT_DIR, "data", "people.json").open(encoding="utf-8") as f:
         judges = json.load(f)
 
-    judges_in_json = [f'{v["path"]}.jpeg' for v in judges]
+    judges_in_json = [f"{v['path']}.jpeg" for v in judges]
 
     portraits = [
         x.split("/")[-1] for x in glob.glob(f"{ROOT_DIR}/data/orig/*.jpeg")
     ]
 
-    missing_judges = sorted(list(set(judges_in_json) ^ set(portraits)))
+    missing_judges = sorted(set(judges_in_json) ^ set(portraits))
     if not missing_judges:
         return True
 
@@ -102,7 +102,7 @@ def find_new_portraits(access_key: str, secret_key: str) -> list:
         x.split("/")[-1] for x in glob.glob(f"{ROOT_DIR}/data/orig/*.jpeg")
     ]
     judges_to_upload = set(aws_portraits) ^ set(local_portraits)
-    return sorted(list(judges_to_upload))
+    return sorted(judges_to_upload)
 
 
 def main(access_key: str, secret_key: str) -> None:

@@ -9,13 +9,9 @@ repos:
     -   id: check-yaml
     -   id: check-added-large-files
 
--   repo: https://github.com/psf/black
-    rev: 25.1.0  # Use the latest stable version
-    hooks:
-    -   id: black
-
--   repo: https://github.com/PyCQA/isort
-    rev: 6.0.1
-    hooks:
-    -   id: isort
-        name: isort (python)
+- repo: https://github.com/astral-sh/ruff-pre-commit
+  rev: v0.11.8
+  hooks:
+    - id: ruff
+      args: [ --fix ]
+    - id: ruff-format
