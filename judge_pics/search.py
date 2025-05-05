@@ -54,7 +54,7 @@ def portrait(
     person: Union[str, int], size: SIZES = ImageSizes.ORIGINAL
 ) -> Optional[str]:
     """Get URL for portait on free.law"""
-    if type(person) == int:
+    if isinstance(person, int):
         paths = [x for x in judges if x["person"] == person]
         if len(paths) > 0:
             return f"https://portraits.free.law/v2/{size.value}/{paths[0]['path']}.jpeg"

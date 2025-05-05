@@ -13,7 +13,7 @@ from judge_pics import judge_pics, judge_root
 
 token = ""
 if token:
-    headers = {"Authorization": "Token %s" % token}
+    headers = {"Authorization": f"Token {token}"}
 else:
     print(
         "Warning: No CourtListener token used. You'll run out of free "
@@ -60,8 +60,7 @@ def make_slug(name: str) -> str | None:
 
     try:
         result_json = requests.get(
-            "https://www.courtlistener.com/api/rest/v4/search/?type=p&name=%s&court=cand"
-            % name,
+            f"https://www.courtlistener.com/api/rest/v4/search/?type=p&name={name}&court=cand",
             headers=headers,
             timeout=10,
         ).json()
@@ -76,16 +75,10 @@ def make_slug(name: str) -> str | None:
         return None
 
     if result_json["count"] > 1:
-        print(
-            "Warning: Got back %s results for %s"
-            % (
-                result_json["count"],
-                name,
-            )
-        )
+        print(f"Warning: Got back {result_json['count']} results for {name}")
         return None
     if result_json["count"] < 1:
-        print("Warning: Got back no results for %s" % name)
+        print(f"Warning: Got back no results for {name}")
         name_parts = name.split()
         if len(name_parts) == 2:
             return f"{name_parts[1].lower()}-{name_parts[0].lower()}"
@@ -93,7 +86,7 @@ def make_slug(name: str) -> str | None:
 
     result_id = result_json["results"][0]["id"]
     result_json = requests.get(
-        "https://www.courtlistener.com/api/rest/v4/people/?id=%s" % result_id,
+        f"https://www.courtlistener.com/api/rest/v4/people/?id={result_id}",
         headers=headers,
         timeout=10,
     ).json()
@@ -145,7 +138,6 @@ def run_things():
             judge_info.append((name, url))
 
     for judge_name, judge_link in judge_info:
-
         try:
             judge_r = requests.get(judge_link, timeout=10)
         except Timeout:
@@ -165,7 +157,7 @@ def run_things():
                 '//div[@class = "judge_portrait"]//img/@src'
             )[0]
         except IndexError:
-            print("Failed to find image for %s" % judge_link)
+            print(f"Failed to find image for {judge_link}")
             continue
 
         try:
@@ -197,12 +189,15 @@ def run_things():
                 "hash": img_hash,
             }
 
-    json.dump(
-        judge_pics,
-        open(os.path.join(judge_root, "judges.json"), "w", encoding="utf-8"),
-        sort_keys=True,
-        indent=2,
-    )
+    with open(
+        os.path.join(judge_root, "judges.json"), "w", encoding="utf-8"
+    ) as fp:
+        json.dump(
+            judge_pics,
+            fp,
+            sort_keys=True,
+            indent=2,
+        )
 
 
 if __name__ == "__main__":

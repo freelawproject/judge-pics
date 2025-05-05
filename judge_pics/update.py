@@ -69,7 +69,7 @@ def update_judge_json(
         raise ValueError("Judge already exists")
     strip_metadata_from_file(filename)
     sha_hash = get_hash_from_file(filename)
-    if any([x["hash"] == sha_hash for x in judges_json]):
+    if any(x["hash"] == sha_hash for x in judges_json):
         raise ValueError(
             f"Image with hash '{sha_hash}' already exists in the database"
         )

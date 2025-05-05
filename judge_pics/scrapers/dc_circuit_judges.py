@@ -81,7 +81,7 @@ def run_things():
                     )[0]
                     full_img_src = root_url + img_path
                 except IndexError:
-                    print("Failed to find image for %s" % full_url)
+                    print(f"Failed to find image for {full_url}")
                     continue
             except Timeout:
                 print(
@@ -122,12 +122,15 @@ def run_things():
                 "hash": img_hash,
             }
 
-    json.dump(
-        judge_pics,
-        open(os.path.join(judge_root, "judges.json"), "w", encoding="utf-8"),
-        sort_keys=True,
-        indent=2,
-    )
+    with open(
+        os.path.join(judge_root, "judges.json"), "w", encoding="utf-8"
+    ) as fp:
+        json.dump(
+            judge_pics,
+            fp,
+            sort_keys=True,
+            indent=2,
+        )
 
 
 if __name__ == "__main__":
