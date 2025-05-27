@@ -1,1 +1,2 @@
-include requirements.txt
+include judge_pics/data/people.json
+prune judge_pics/data/orig
