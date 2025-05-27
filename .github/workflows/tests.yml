@@ -17,10 +17,17 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
-    - name: Set up Python ${{ matrix.python-version }}
-      uses: actions/setup-python@v5
+
+    - uses: actions/setup-python@v5
       with:
         python-version: ${{ matrix.python-version }}
+        allow-prereleases: true
+
+    - name: Install uv
+      uses: astral-sh/setup-uv@v6
+      with:
+        enable-cache: true
+
     - name: Install OS dependencies
       run: |
         sudo apt-get install \
@@ -29,8 +36,9 @@ jobs:
                 --assume-yes \
                 --quiet=2 \
                 libxml2-dev libxslt-dev
-    - name: Install Python dependencies
-      run: pip install tox
+
+    - name: Install dependencies
+      run: uv pip install --system tox tox-uv
 
     - name: Run tox targets for ${{ matrix.python-version }}
       run: tox run -f py$(echo ${{ matrix.python-version }} | tr -d .)
