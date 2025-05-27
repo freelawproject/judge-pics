@@ -4,6 +4,48 @@ requires = [
   "setuptools",
 ]
 
+[project]
+name = "judge-pics"
+version = "2.0.5"
+description = "Database of Judge Pictures"
+readme = "README.md"
+keywords = [ "legal" ]
+license = "Unlicense"
+license-files = [ "LICENSE" ]
+authors = [
+  { name = "Free Law Project", email = "info@free.law" },
+]
+requires-python = ">=3.9"
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Intended Audience :: Developers",
+  "Natural Language :: English",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+urls.Repository = "https://github.com/freelawproject/judge-pics"
+
+dependencies = [
+  "python-dateutil>=2.0",
+  "lxml>=4.0",
+  "requests>=2.0",
+  "climage",
+  "python-Levenshtein",
+  "fuzzywuzzy",
+]
+
+[tool.setuptools]
+packages = [ "judge_pics" ]
+
 [tool.ruff]
 line-length = 79
 lint.select = [
