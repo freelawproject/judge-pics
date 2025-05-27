@@ -7,6 +7,7 @@
 ## Upcoming Changes
 
 - Dropped support for Python 3.7 and 3.8
+- Added support for Python 3.13
 - Fixed various Pylint warnings and errors:
   - Added encoding to `open()` calls
   - Replaced overly general exceptions with more specific ones
