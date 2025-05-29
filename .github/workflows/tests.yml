@@ -40,7 +40,6 @@ jobs:
     - name: Install OS dependencies
       run: |
         sudo apt-get install \
-                --option "Acquire::Retries=3" \
                 --no-install-recommends \
                 --assume-yes \
                 --quiet=2 \
