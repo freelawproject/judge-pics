@@ -11239,5 +11239,14 @@
     "path": "wyatt-tom",
     "person": 9707,
     "source": "Provided by the Judiciary of Tennessee"
+  },
+  {
+    "artist": null,
+    "date_created": null,
+    "hash": "55c7e4a344019e8bc8dcce3613db48fea195347139b9abda04168bb71b4c4300",
+    "license": "Work of Federal Government",
+    "path": "byron-paul.jpeg",
+    "person": 495,
+    "source": "https://www.judiciary.senate.gov/committee-activity/hearings/judicial-nominations-2014-04-01"
   }
 ]
